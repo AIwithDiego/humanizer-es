@@ -1,0 +1,19 @@
+---
+id: b13
+genre: review-reply
+split: dev
+source: claude-sonnet-5-5
+prompt: "Responde esta reseña de Google de mi restaurante: \"Comida rica pero esperamos 50 minutos por los platos y nadie nos avisó.\" Era sábado y nos faltó un cocinero."
+facts: "restaurante · reseña: comida rica, esperaron 50 minutos, nadie avisó · era sábado · faltó un cocinero"
+raw_wrapper_lines_stripped: 6
+extracted_from: raw/b13-claude.md
+---
+
+Hola, gracias por tomarte el tiempo de escribirnos y por tus palabras sobre la comida. Lamentamos mucho la espera de 50 minutos, y más aún que nadie os avisara. Ese fue nuestro error: debimos informaros desde el principio.
+
+Ese sábado nos faltó un miembro del equipo de cocina y no gestionamos la situación como debíamos. Es una explicación, no una excusa, porque lo correcto era avisaros y ofreceros opciones.
+
+Hemos tomado nota para mejorar nuestra comunicación cuando haya retrasos. Nos encantaría que nos dierais otra oportunidad para ofreceros la experiencia que merecéis. Si volvéis, escribidnos por privado o preguntad por [nombre], y nos aseguraremos de atenderos personalmente.
+
+Un saludo,
+[Tu nombre], [Nombre del restaurante]
