@@ -1,0 +1,1 @@
+Hola, equipo. Desde el lunes todos los pedidos se registran en la nueva planilla de Google Sheets y dejamos de usar el cuaderno. Les dejé el link fijado en el grupo para que lo tengan a mano. ¡Gracias!

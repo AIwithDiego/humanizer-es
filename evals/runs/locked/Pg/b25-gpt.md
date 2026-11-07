@@ -1,0 +1,5 @@
+Instagram suele ser la primera vitrina digital de una pyme chilena. Ahí puede mostrar sus productos, responder consultas y conectar con clientes sin una gran inversión inicial. Pero si toda su presencia depende de esa cuenta, el negocio queda sujeto a decisiones que no controla. Un cambio en el algoritmo, las restricciones de la plataforma o una suspensión pueden cortar el contacto con su comunidad.
+
+Un sitio web propio le da al negocio una base más estable. Los clientes pueden conocer la oferta, consultar precios y encontrar la información que necesitan sin tener que buscar entre publicaciones ni esperar una respuesta por mensaje directo. El sitio también ofrece la posibilidad de aparecer en las búsquedas de Google. Y puede transmitir confianza a quienes todavía no conocen la marca.
+
+Instagram puede seguir siendo una puerta de entrada al negocio y llevar a los clientes al sitio web. Esa dirección propia permite convertir el interés en consultas, ventas y relaciones duraderas con los clientes.

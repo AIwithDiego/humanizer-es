@@ -1,0 +1,733 @@
+{
+ "18": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V5",
+   "V1",
+   "V2",
+   "V4",
+   "V6"
+  ],
+  "note": "V3 wins through restrained editing that preserves the professional firmness and corrects the accent. V1 and V5 are equally faithful but slightly more conversational. V2 removes the explicit courtesy and weakens the invitation to resolve difficulties. V4 and V6 turn a possible joint resolution into an assurance: 'lo resolvemos'. All retain the payment facts."
+ },
+ "19": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 7
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V6",
+   "V1",
+   "V4",
+   "V5"
+  ],
+  "note": "V2 wins by retaining all duties, requirements and benefits, although unnecessary capitals remain. V1 loses development opportunities. V3 and V6 omit the good working environment; V4 omits both that benefit and learning/development opportunities. V5 also drops the working environment, implies advancement within the firm and changes assistance with tax preparation into direct responsibility. V5 retains title case and the dash; V1 and V5 mix grammatical forms in the duties."
+ },
+ "20": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V1",
+   "V3",
+   "V4",
+   "V2",
+   "V6"
+  ],
+  "note": "V5 wins with minimal, appropriate cleanup and useful formatting; V1 is equally usable. All retain the substantive requirements and duties. V2 and V6 slightly narrow organization to tidiness. V4 retains unnecessary capitals in the subject; V6 also retains title case in the heading and makes the opening more telegraphic."
+ },
+ "21": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 5,
+    "useful": 5
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V6",
+   "V3",
+   "V1",
+   "V5",
+   "V4",
+   "V2"
+  ],
+  "note": "V6 wins with natural professional Spanish, corrected capitalization and clearer alternatives to jargon. V3 is close. V1 weakens the results-oriented positioning and shortens the interview invitation. V2 invents a predominant paid-campaign specialization and narrows daily decisions to spending money; its colloquial wording is unsuitable here. V4 omits the competitive retail context; V4 and V5 assert present duties despite the current/most-recent-role placeholder. All retain the headline credentials and budget, but need their substantive placeholders completed."
+ },
+ "22": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V2",
+   "V1",
+   "V5",
+   "V4",
+   "V3"
+  ],
+  "note": "V6 wins by preserving the content and respectful register in straightforward language; V2's 'experiencia en digital' is less polished. V1 mainly trims the interview invitation. V3 invents compulsion and an absolute 'always', and substitutes campaign measurement for effectiveness. V4 makes the same measurement substitution. V5 drops the reference to retail's dynamic challenges. None explicitly invents a completed degree."
+ },
+ "23": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V3",
+   "V2",
+   "V4",
+   "V1",
+   "V5"
+  ],
+  "note": "V6 wins narrowly for natural wording and preservation of most selling points; V3 is nearly equivalent. All retain the specifications and care steps, but omit the explicit timeless-design and attention-to-detail claims. V1 and V2 also lose improvement with use; V1, V4 and V5 omit 'combines with everything'. V4 loses the marks-and-folds characterization. V1 and V5 strengthen weather protection into rain protection, and V5 adds that marks remain."
+ },
+ "24": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 7
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V6",
+   "V1",
+   "V3",
+   "V2",
+   "V4"
+  ],
+  "note": "V5 wins with smooth, concise copy that preserves the specifications, simple style and broader everyday use. V1 and V6 are also faithful. V2 replaces 'and beyond' with the return commute; V3 drops that broader use. V4 additionally omits the simple style and the organizational benefit of the compartment."
+ },
+ "25": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V3",
+   "V6",
+   "V1",
+   "V2"
+  ],
+  "note": "V5 wins by removing formulaic framing while preserving the argument and every substantive detail. V4 and V3 are strong alternatives; V6 remains more repetitive. V1 narrows 'no technical knowledge' to 'no programming knowledge'. V1 and V2 increase the certainty of Instagram dependence and account-loss scenarios; V2 also turns the ability to sell around the clock into actual sales and uses the awkward 'te saca de depender'."
+ },
+ "26": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 7
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 7
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V2",
+   "V6",
+   "V3",
+   "V1",
+   "V4"
+  ],
+  "note": "V5 wins through restrained editing that preserves the original's measured argument. V2 and V6 are close, though their endings make conversion sound more certain. V1 adds an alarmist hook, changes dependence of the online presence into dependence of the whole business, makes contact loss categorical and drops lasting relationships. V3 also makes contact loss categorical and narrows lasting relationships to repeat customers. V4 adds those shifts and narrows the community to followers."
+ },
+ "27": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V4",
+   "V6",
+   "V1",
+   "V5",
+   "V2"
+  ],
+  "note": "V3 wins with clear financial distinctions and a natural instruction to build habits gradually. V4 is faithful but vaguer about what gets mixed. All remove the stock future-self closer. V1 and V6 omit the combined foundation for calm growth. V5 and V6 turn help assessing sustainability into a definitive assessment; V5 also loses 'today'. V2 invents a quick assessment, guarantees no tax surprises and replaces starting today and adding habits with a question about this week."
+ },
+ "28": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V2",
+   "V6",
+   "V1",
+   "V3"
+  ],
+  "note": "V5 wins: the unchanged original already reads naturally and preserves the qualified benefits. V4 is a strong, more directive alternative. All retain the crucial requirement to adjust the 10% to tax obligations. V1, V2 and V6 slightly strengthen 'will help' into predicted outcomes. V3 additionally introduces an unsupported sufficiency claim with 'basta'."
+ },
+ "29": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V2",
+   "V3",
+   "V6",
+   "V1",
+   "V5"
+  ],
+  "note": "V4 wins by removing repetition while retaining the polite instruction, help offer and all operational facts. V2 and V3 are faithful but more repetitive. V1 and V6 drop 'please', making the instruction firmer; V1 also misses the vocative comma. V5 changes pinning to an explicitly completed action and retains the missing vocative comma. No version loses a core operational detail."
+ },
+ "30": {
+  "scores": {
+   "V1": {
+    "human": 10,
+    "faithful": 9,
+    "useful": 10
+   },
+   "V2": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V4": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V6",
+   "V4",
+   "V1",
+   "V5"
+  ],
+  "note": "V2, V3 and V6 are identical to the already effective original and tie for first; their order is arbitrary. V4 is equally sound. V1 and V5 shift pinning from the present to an explicitly completed action; V5 also makes the greeting less warm. All preserve the operational facts."
+ },
+ "31": {
+  "scores": {
+   "V1": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V2": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V3": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V4": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V5": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V6": {
+    "human": 10,
+    "faithful": 5,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V1",
+   "V2",
+   "V3",
+   "V4",
+   "V5"
+  ],
+  "note": "V6 wins overall by correcting spelling, accents and question punctuation without erasing the Chilean forum voice or the wish to avoid accountant fees. However, 'cualquier usuario' broadens access into a universal claim, and 'cuesta poco' strengthens affordability. V1–V5 are identical, fully faithful and unmistakably human, but leave extensive errors untouched; their relative order is arbitrary."
+ },
+ "32": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 5
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V3",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "V2 wins by correcting accents, capitalization, punctuation and awkward coordination while preserving every requirement, duty and training opportunity. V1, V3, V4, V5 and V6 are identical to the original and tie; they retain conspicuous errors such as 'experiência', lowercase Ñuñoa and missing accents. No facts are invented or lost."
+ },
+ "33": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 4,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 5
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 5
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 5
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V2",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "V1 wins for readable, natural company history, but changes 'around 2013' to an exact year and drops the unique-flavors claim; V3 also drops uniqueness. V2, V4, V5 and V6 are identical and retain capitalization and spacing errors. Every version omits the required 19-plus years in Frutillar and five in Pucón; those durations are also absent from the supplied ORIGINAL, creating a packet inconsistency."
+ },
+ "34": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V5",
+   "V3",
+   "V1",
+   "V2",
+   "V4",
+   "V6"
+  ],
+  "note": "V5 wins by fixing agreement, punctuation and cumbersome sentences while retaining the 2020 context, institutions, URL, eight-day timing, business count, map and round-the-clock assistant. V3 only removes the comma between subject and verb. V1, V2, V4 and V6 are identical and tie, retaining that comma, 'a la pymes' and the stray URL space. No substantive facts are invented or lost."
+ }
+}

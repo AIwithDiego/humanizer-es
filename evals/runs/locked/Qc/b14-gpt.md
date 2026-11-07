@@ -1,0 +1,1 @@
+¡Gracias por las 5 estrellas! 😊 Qué bueno que disfrutaron la terraza y los datos de Marcela para comer rico en Valparaíso. Le vamos a contar lo que escribieron, le va a encantar. ¡Ojalá vuelvan pronto!

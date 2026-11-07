@@ -1,0 +1,733 @@
+{
+ "1": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 5,
+    "faithful": 9,
+    "useful": 5
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V1",
+   "V6",
+   "V2",
+   "V3",
+   "V5"
+  ],
+  "note": "V4 wins: tight, warm, every fact kept. V1 close. V5 barely changed and writes '2.400.000 $', a Spain format that looks wrong in Chile. No invented facts."
+ },
+ "2": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 9,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V5",
+   "V1",
+   "V4",
+   "V2",
+   "V3",
+   "V6"
+  ],
+  "note": "V5 wins: shortest, reads like a real follow-up, all facts kept. V1/V4 nearly identical and good. V3 'Te recuerdo' is a bit pushy. V6 uses '2.400.000 $ más IVA', wrong format for Chile."
+ },
+ "3": {
+  "scores": {
+   "V1": {
+    "human": 5,
+    "faithful": 9,
+    "useful": 5
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V3",
+   "V6",
+   "V4",
+   "V2",
+   "V1"
+  ],
+  "note": "V5 wins: natural, keeps the warmth ('de corazón', 'misma calidad de siempre'). V4 shifts 'necesitamos' to 'necesito', minor. V2 loses warmth. V1 unchanged except '12.000 $' Spain format."
+ },
+ "4": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V2",
+   "V4",
+   "V3",
+   "V5",
+   "V1",
+   "V6"
+  ],
+  "note": "Human original; V2 and V4 leave it untouched, which is right. V1/V3/V5 small fine edits. V6 changes to '12.000 $', wrong for Chile."
+ },
+ "5": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V1",
+   "V3",
+   "V2",
+   "V6"
+  ],
+  "note": "V5 wins: clean, keeps HORAS emphasis and all facts. V6 drops 'paso a paso' and keeps the robot emoji gimmick. No invented facts."
+ },
+ "6": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 6
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V5",
+   "V2",
+   "V6",
+   "V4"
+  ],
+  "note": "V1 wins: drops the slogan line into a natural sentence. V4 'sin que deje de sonar a mí' is awkward and loses the 'no robot' point. V2 still stiff ('frente a la bandeja')."
+ },
+ "7": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 5,
+    "faithful": 8,
+    "useful": 6
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V5",
+   "V3",
+   "V6",
+   "V2",
+   "V4"
+  ],
+  "note": "V1 wins: reads like a person, keeps every fact and lesson. V2 overstates ('ganas y trabajo les sobraban' vs original 'no era falta de talento'). V4 keeps the staccato LinkedIn style, drops 'no fue impulsiva' and 'queda por construir'. V1/V3/V6 drop 'Te leo', minor."
+ },
+ "8": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V3",
+   "V1",
+   "V4",
+   "V5",
+   "V2",
+   "V6"
+  ],
+  "note": "V3 wins: smooth, all facts kept. V2 'Es poco' undersells and drops 'emprender'. V6 barely changed and drops the 'con ilusión y mucho trabajo' line."
+ },
+ "9": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V4",
+   "V6",
+   "V5",
+   "V3",
+   "V2"
+  ],
+  "note": "V1 wins: plain owner's voice, keeps all facts incl. three decades. V4 natural but drops 'clientes' and 'conocimiento', minor. V2 mostly original wording, stiff. V3/V5 keep a bullet list of values. No invented facts."
+ },
+ "10": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V4",
+   "V1",
+   "V2",
+   "V3",
+   "V5"
+  ],
+  "note": "V6 wins: flows best, all facts kept. V1/V4 near-identical, good. V2 'quienes lo arreglan' and 'manejar tranquilo' fine but slightly shifts tone. V5 barely changed."
+ },
+ "11": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V6",
+   "V1",
+   "V2",
+   "V4",
+   "V5"
+  ],
+  "note": "V3/V6 win: natural, faithful, figures intact. V2 and V5 rewrite the placeholder example into 'Hemos capacitado a...' (a stronger claim); V5 also adds a definition of generative AI. V4 barely changed, still stiff ('Optimizar', 'Utilizar')."
+ },
+ "12": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V6",
+   "V2",
+   "V4",
+   "V5"
+  ],
+  "note": "V1 wins: direct proposal voice, all facts. V6 'valor' and 'mejorar sus clases' fine but narrows 'prácticas pedagógicas'. V5 keeps the bureaucratic phrasing."
+ },
+ "13": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V6",
+   "V3",
+   "V4",
+   "V5"
+  ],
+  "note": "V2 wins: warm and short, all facts. V1 also good. V5 is the original minus the slogan closer, still formal ('Para nosotros es un orgullo'). No invented facts."
+ },
+ "14": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V1",
+   "V4",
+   "V5",
+   "V6",
+   "V2"
+  ],
+  "note": "Human original; V1/V4/V5 leave it as is, fine. V3 swaps the stiff 'Le compartiremos sus palabras' for 'Le vamos a contar lo que escribieron', best. V2 'Se lo vamos a contar' is vague about who."
+ },
+ "15": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V5",
+   "V4",
+   "V6",
+   "V3",
+   "V2"
+  ],
+  "note": "V1 wins: smoother, keeps everything. V3 cuts the cold-weather opener and 'pasar un buen rato', trims more than needed. V2 just strips emojis, wording unchanged. No invented facts."
+ },
+ "16": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V3",
+   "V1",
+   "V6",
+   "V2",
+   "V5"
+  ],
+  "note": "V4 wins: plain, keeps every item incl. the read-together line. V3 close. V2 and V5 drop the read-at-home line; V5 barely changed. V6 shifts 'no lo has leído' to 'no conoces a Zambra', small."
+ },
+ "17": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 9,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V4",
+   "V1",
+   "V5",
+   "V2",
+   "V3",
+   "V6"
+  ],
+  "note": "Human-ish original; V4 and V1 keep the firmness and read naturally. V6 changes '$600.000' to '600.000 $', wrong in Chile. No invented facts or apologies."
+ }
+}

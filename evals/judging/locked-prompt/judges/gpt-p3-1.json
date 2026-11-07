@@ -1,0 +1,733 @@
+{
+ "1": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V2",
+   "V6",
+   "V1",
+   "V4",
+   "V3"
+  ],
+  "note": "V5 wins for concise, natural wording that preserves usted and the offer. All versions omit Fuentes and Temuco, required by the Facts line but also absent from the original; this caps faithfulness at 5. V3 switches to tú and makes the four-week deadline approximate."
+ },
+ "2": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V1",
+   "V6",
+   "V4",
+   "V2",
+   "V3"
+  ],
+  "note": "V5 wins for a natural, economical follow-up that keeps tú. All versions omit the required Fuentes and Temuco, as does the original. V3 additionally offers proposal adjustments, makes four weeks approximate, and introduces a more intimate closing. V2 leaves the greeting's vocative unpunctuated."
+ },
+ "3": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V2",
+   "V3",
+   "V6",
+   "V1",
+   "V5"
+  ],
+  "note": "V4 wins by preserving the warm voice, facts, availability and quality rationale while correcting punctuation. V3 and V6 are identical and tied; both lack the vocative comma. V1 drops the quality rationale. V5 invents rent as the specific cost, changes the collective voice to singular, and adds a claim of having no alternative."
+ },
+ "4": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V2",
+   "V4",
+   "V5",
+   "V1",
+   "V3",
+   "V6"
+  ],
+  "note": "V2 and V4 tie for first: the original already works, and they supply the missing vocative comma. V5 preserves the content with modest edits. V3 unnecessarily minimizes the increase as a small adjustment. V6 invents having no alternative and changes straightforward gratitude into a more distressed appeal."
+ },
+ "5": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V2",
+   "V6",
+   "V1",
+   "V3"
+  ],
+  "note": "V5 wins for clean, idiomatic promotional copy with every claim and the CTA intact. V1 invents repetitive emails, a half-afternoon schedule and a specific editing workflow. V3 invents a half-morning workload, unanswered emails and review steps, while dropping the explicit minutes claim. Both replace professional tone with personal voice."
+ },
+ "6": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 2,
+    "useful": 4
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V5",
+   "V4",
+   "V6",
+   "V3"
+  ],
+  "note": "V2 wins for natural Chilean phrasing and a clearer opening comparison. All versions leave the reel unspecified, a shared omission already present in the original despite the Facts requirement. V3 invents habitual difficulty, a drafting workflow and half-morning savings. V6 also invents personal history and workflow, and loses the explicit assurance about preserving voice and avoiding robotic language."
+ },
+ "7": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V2",
+   "V3",
+   "V6",
+   "V5",
+   "V1"
+  ],
+  "note": "V4 wins by retaining the substance while improving flow and the awkward humility wording. V2 is especially faithful; V6 retains that awkward wording. V1 invents growing sales and pricing difficulties, changes imperfect/unpublished assets into unfinished/absent ones, and loses the safety-net and freedom lesson. V5 changes frequency claims, removes the publication qualifier from success stories, substitutes vertigo for lost security, and narrows financing to credit."
+ },
+ "8": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   }
+  },
+  "rank": [
+   "V6",
+   "V2",
+   "V1",
+   "V3",
+   "V4",
+   "V5"
+  ],
+  "note": "V6 wins for preserving the restrained professional voice and every substantive point. V3 has awkward phrasing around learning the other side. V4 adds organizational difficulties and explicitly ongoing client work. V5 invents an exact resignation date, unfamiliarity and gaps in bank training; its final question changes difficult decisions into postponed ones."
+ },
+ "9": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 10
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V6",
+   "V3",
+   "V1",
+   "V2"
+  ],
+  "note": "V5 wins by simplifying the presentation while retaining the history, capabilities and commitments. V6 is most exhaustive but keeps more stock marketing language. V3 and V4 lose some relational emphasis. V1 invents customers subsequently bringing their families. V2 invents direct teaching by the father and customer recommendations, and drops the explicit commitment against repeat repairs."
+ },
+ "10": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V3": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V1",
+   "V5",
+   "V6",
+   "V4",
+   "V2"
+  ],
+  "note": "V3 wins for unobtrusive editing that keeps the family voice and every substantive point. V1 is similarly strong. V6 slightly softens the original statement about trust. V2 invents repair prioritization, explanations without technical terms, pricing transparency and a guarantee of always seeing the same people; it also loses the return-to-the-road reassurance."
+ },
+ "11": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V5",
+   "V1",
+   "V4",
+   "V6",
+   "V3",
+   "V2"
+  ],
+  "note": "V5 wins for clear proposal language, correct heading capitalization and intact scope and pricing. V2 adds next-day applicability and an exaggerated claim about technological change, while retaining Title Case. V3 adds privacy, authorship and review requirements, drops the explicit support-not-replacement stance, and removes the initial school-review step. V6 adds an unrequested definition and drops the broader implications outcome. The experience examples remain placeholders, not verified credentials."
+ },
+ "12": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V6",
+   "V1",
+   "V5",
+   "V4"
+  ],
+  "note": "V2 wins for a light edit that preserves the proposal's scope, objectives and register. All versions retain participants, session length, total hours and price. V1 and V5 recast pedagogical improvement more freely; V5 adds an emphasis on critical use. V4's phrasing is too conversational and shifts the stated objective toward an expected end-of-course outcome."
+ },
+ "13": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V5",
+   "V2",
+   "V1",
+   "V3",
+   "V4",
+   "V6"
+  ],
+  "note": "V5 wins for warmth and preservation of the return invitation and harbor view; V2 is close. Both soften the promotional superlative. V1 and V3 drop the harbor-view assurance. V4 invents the guest's sunset experience and drops the hosts' favorite-spot statement. V6 loses the explicit view, asserts the dining tips proved useful, and adds a terrace-ready promise."
+ },
+ "14": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 4,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V3": {
+    "human": 10,
+    "faithful": 5,
+    "useful": 10
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 3,
+    "useful": 6
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V5",
+   "V6",
+   "V2",
+   "V1",
+   "V4"
+  ],
+  "note": "V3 wins with a small, natural change to the promise to pass on the review. V5 and V6 are identical and tied. All versions, like the original, leave the Facts line's hostal identification unstated. V1 additionally asserts the recommendations were useful and predicts Marcela's reaction. V4 drops the view and also invents her reaction."
+ },
+ "15": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 5
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 5
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 4,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 4
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 5
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V1",
+   "V5",
+   "V2",
+   "V6",
+   "V3",
+   "V4"
+  ],
+  "note": "V1 narrowly wins for preserving the detailed offer and improving wording, but it retains the original's unsuitable claim that November begins the cold season in Chile; V2, V4, V5 and V6 share that problem. V2 and V6 trim literary praise. V3 removes the seasonal claim and much of the original voice, invents customer recommendations and lingering conversations, and uses English-style dashes. V4 drops the explicit no-expertise reassurance and shifts between plural and singular address."
+ },
+ "16": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V5",
+   "V6",
+   "V1",
+   "V3",
+   "V2"
+  ],
+  "note": "V4 wins for preserving the welcome, information and invitations in straightforward language. V1 slightly shifts not having read Zambra to not knowing him. V3 unnecessarily narrows the children's offer to people with children at home. V2 adds a promise of help choosing books and uses phrasing less natural for Chile, such as 'si te apetece'. All retain the dates and discount."
+ },
+ "17": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   }
+  },
+  "rank": [
+   "V6",
+   "V3",
+   "V1",
+   "V5",
+   "V4",
+   "V2"
+  ],
+  "note": "V6 wins by correcting the greeting and retaining the firm demand for confirmation today without adding concessions. V1, V3 and V5 preserve the substance but leave the greeting's vocative unpunctuated. V4 drops the explicit identification as the second payment and changes joint planning to personal planning. V2 adds speculation, a 'no problem' concession and an overly familiar closing, weakening the author's stance."
+ }
+}

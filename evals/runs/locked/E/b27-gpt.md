@@ -1,0 +1,1 @@
+Para ordenar las finanzas de tu emprendimiento, separa tu cuenta personal de la del negocio, págate un sueldo fijo y reserva el 10% para impuestos. Ese porcentaje es un punto de partida: tendrás que ajustarlo a tus obligaciones tributarias. Mantener estos tres hábitos te ayudará a saber cuánto dinero tiene el negocio, planificar tus gastos y decidir con más tranquilidad.

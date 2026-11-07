@@ -1,0 +1,3 @@
+{"seed": 20261112, "split": "locked", "inputs": "runs/locked/inputs",
+ "arms": {"Pg": "runs/locked/Pg", "Pc": "runs/locked/Pc", "Qg": "runs/locked/Qg", "Qc": "runs/locked/Qc", "A2": "runs/locked/A2", "C": "runs/locked/C"},
+ "names": {"Pg": "prompt.md in GPT", "Pc": "prompt.md in Claude", "Qg": "plain ask in GPT", "Qc": "plain ask in Claude", "A2": "full skill v1.3 + 2nd", "C": "alvaromieres9"}}

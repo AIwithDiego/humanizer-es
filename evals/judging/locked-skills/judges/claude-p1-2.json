@@ -1,0 +1,733 @@
+{
+ "18": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V2",
+   "V6",
+   "V4",
+   "V5",
+   "V1",
+   "V3"
+  ],
+  "note": "Human original, all versions faithful. V2 wins: 'avísame y lo vemos' is exactly how a Chilean freelancer writes; V6/V4 nearly identical. V3 barely touched it and keeps stiff 'nuevamente/aún no he recibido'. No facts lost."
+ },
+ "19": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V5",
+   "V6",
+   "V3",
+   "V4"
+  ],
+  "note": "Solid human job ad; light edits best. V2 keeps every line incl. 'buen ambiente laboral'. V3, V4, V6 drop the 'buen ambiente laboral' perk; V4 also drops the learning line entirely and loses all bold structure. V1 trims to 'posibilidad de aprender' (loses desarrollo)."
+ },
+ "20": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V5",
+   "V1",
+   "V3",
+   "V4",
+   "V2"
+  ],
+  "note": "Human LinkedIn-style ad; changes are cosmetic. V6 keeps the emojis and bolding that fit the channel and tightens slightly. V2 drops the title bold so the headline looks like body text. No facts lost anywhere."
+ },
+ "21": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V1",
+   "V2",
+   "V5",
+   "V3",
+   "V6"
+  ],
+  "note": "AI-sounding original. V4 most natural and direct, keeps everything (colon reveal 'Ese es el trabajo que me interesa:' is a small tell). V2 reads best but adds 'sobre todo con campañas pagadas', 'decidir dónde poner la plata' and 'me encantaría', which go beyond the original. V6 stiff ('Mis responsabilidades incluyeron') and swaps 'performance' for 'marketing orientado a resultados'."
+ },
+ "22": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V4",
+   "V2",
+   "V6",
+   "V3",
+   "V5"
+  ],
+  "note": "AI original. V1 tight and natural, all facts. V4 close behind. V3 adds 'me obligó a aprender' and 'siempre', a slight dramatization. V5 barely changes the stiff phrasing ('fundamentales', 'apoyen las ventas') and drops the closing retail mention. No facts lost."
+ },
+ "23": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V6",
+   "V3",
+   "V2",
+   "V1"
+  ],
+  "note": "AI product copy. V5 wins: keeps the scannable structure, trims the hype and 'cada pieza es única... parte de su encanto' closer. V4 also clean. V1 and V2 fold the feature list into prose, less usable on a product page; V1 drops 'combina con todo' and changes water resistance to 'lluvia'. All keep the four key facts."
+ },
+ "24": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V6",
+   "V5",
+   "V1",
+   "V2",
+   "V4"
+  ],
+  "note": "AI product blurb, all keep the four facts. V3 is compact and reads like a real listing. V2 and V4 end with an odd 'de la casa al trabajo y de vuelta'; V4 also drops 'estilo sencillo'."
+ },
+ "25": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V3",
+   "V4",
+   "V1",
+   "V5",
+   "V2",
+   "V6"
+  ],
+  "note": "AI blog intro. V3 and V4 remove the 'no significa X, sino Y' frame and the anaphora, keeping all claims. V1 keeps a 'no te obliga a..., te permite...' contrast. V2 keeps a one-line punch paragraph and a 'no reemplaza; te saca de' contrast. V6 keeps the 'Basta... Basta...' anaphora, barely changed. V5 turns the headline question into a flat statement."
+ },
+ "26": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V4",
+   "V6",
+   "V1",
+   "V5"
+  ],
+  "note": "AI blog intro. V2 is natural and keeps everything incl. 'relaciones duraderas'. V1 invents an opening hook question and drops 'relaciones duraderas'. V4 adds 'publicaciones antiguas' and swaps comunidad for seguidores. V5 is almost the stiff original ('transmitir confianza', 'información clave')."
+ },
+ "27": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V3",
+   "V6",
+   "V5",
+   "V1",
+   "V2"
+  ],
+  "note": "AI conclusion with a 'tu yo del futuro te lo agradecerá' closer. V4 drops the closer, keeps 'base para crecer', sounds Chilean ('hasta que ya no se entienda nada'). V2 replaces the ending with a new question CTA and adds 'ves rápido'. V1 and V6 drop the 'juntos forman una base' idea. All keep the three habits and 10%."
+ },
+ "28": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V6",
+   "V4",
+   "V3",
+   "V5"
+  ],
+  "note": "Short conclusion. V2 is natural and complete. V3 adds 'basta con', which downplays the original. V5 is unchanged and keeps 'Ese ahorro', 'obligaciones fiscales' and 'mayor tranquilidad'."
+ },
+ "29": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V3",
+   "V2",
+   "V1",
+   "V6",
+   "V4"
+  ],
+  "note": "Human WhatsApp message; all faithful. V5 keeps the original's format (bold, pin emoji) with tiny fixes. V1 and V4 compress well but lose a bit of the friendly rhythm. V4 drops the explicit 'ya no en el cuaderno' from the first line (still covered later)."
+ },
+ "30": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V6",
+   "V4",
+   "V1",
+   "V5"
+  ],
+  "note": "Human message, already fine. V2, V3 and V6 leave it as is (best). V4 changes one word. V1 changes tenses harmlessly. V5 drops the opening '¡' and loses some warmth."
+ },
+ "31": {
+  "scores": {
+   "V1": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V2",
+   "V3",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "Human forum post. V1 to V5 leave it untouched, which keeps the author's voice, typos included. V6 is a careful clean-up that keeps 'mi vieja' and 'no le pega', but it loses the forum voice and shifts 'por un precio accesible' to 'cuesta poco' and 'adherirme' to 'contratar'. No facts lost."
+ },
+ "32": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V3",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "Human job ad with typos ('experiência', 'ñuñoa', 'cafe'). V2 fixes spelling and lists while keeping every requirement and function, so it is the most postable. The rest are untouched. 'Capacitación' for 'entrenamiento' is fine."
+ },
+ "33": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V2",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "Human but stiff about-us text. V1 is the only real edit: it reads naturally, keeps every fact and drops only 'únicos' and the 'hacia' hedge on 2013. V3 fixes the spacing and punctuation errors. The rest are untouched. The Facts line's '19 años en Frutillar y 5 en Pucón' is not in the original and appears in no version."
+ },
+ "34": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V5",
+   "V3",
+   "V1",
+   "V2",
+   "V4",
+   "V6"
+  ],
+  "note": "Human news text with small errors ('a la pymes', '( www', comma before 'son'). V5 cleans it up like a copy editor and keeps every fact (URL, both agencies, 8 días, 2.300, map, assistant). V3 fixes only the stray comma. The rest are untouched."
+ }
+}

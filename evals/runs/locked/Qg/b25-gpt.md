@@ -1,0 +1,5 @@
+Para muchas pymes chilenas, Instagram es el punto de partida: ahí muestran sus productos, responden preguntas y consiguen sus primeros clientes sin gastar demasiado. El problema aparece cuando todo depende de esa cuenta. Un cambio en el algoritmo puede hacer que menos personas vean las publicaciones, y una suspensión puede dejar al negocio sin su principal canal de contacto de un día para otro.
+
+Un sitio web propio ayuda a reducir esa dependencia y le facilita las cosas al cliente. En vez de revisar publicaciones antiguas o mandar un mensaje para preguntar un precio, puede encontrar lo que necesita en un solo lugar: qué vende el negocio, cuánto cuesta y cómo comprar. Además, una web puede ayudar a que nuevas personas encuentren la empresa en Google y se animen a comprar, aunque todavía no la conozcan.
+
+No se trata de dejar Instagram. Puede seguir siendo el lugar donde la gente descubre el negocio y se interesa por lo que ofrece. La web complementa ese trabajo: le da al cliente un sitio al que acudir cuando quiere saber más, hacer una consulta o concretar una compra.

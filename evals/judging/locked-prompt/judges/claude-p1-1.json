@@ -1,0 +1,733 @@
+{
+ "1": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V6",
+   "V5",
+   "V1",
+   "V2",
+   "V3"
+  ],
+  "note": "V4 wins: keeps usted and every fact, drops the template opener lines. V2 barely changes the bulleted AI layout. V3 switches to tú (tone change toward a client) and softens to 'unas 4 semanas'."
+ },
+ "2": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V2",
+   "V6",
+   "V1",
+   "V4",
+   "V5",
+   "V3"
+  ],
+  "note": "V2 reads most like a real Chilean email ('Me cuentas qué te parece'). V3 adds an offer to adjust the quote, hedges '4 semanas' to 'unas 4' and closes with 'Un abrazo', too intimate for a client."
+ },
+ "3": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V2",
+   "V1",
+   "V3",
+   "V6",
+   "V5"
+  ],
+  "note": "V4 natural and complete. V1 drops 'con tiempo' and the quality reason. V3 and V6 are the original unchanged (bold, AI cadence). V5 invents 'arriendo del local', adds 'ya no me queda otra' and uses Spain-ish 'te busco un hueco'."
+ },
+ "4": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 6,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V2",
+   "V4",
+   "V5",
+   "V3",
+   "V6"
+  ],
+  "note": "Human original; V1 leaves it as is, V2/V4 add only a comma. V3 adds 'pequeño ajuste' and drops 'acompañarme siempre'. V6 adds a complaint ('ya no me queda otra 🥲') and rewrites the thanks."
+ },
+ "5": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V6",
+   "V2",
+   "V1",
+   "V3"
+  ],
+  "note": "V5 clean and faithful. V1 invents 'media tarde', 'siempre los mismos' and a review process; V3 invents 'media mañana', pending emails and 'las reviso antes de enviarlas'. All correctly drop the 'Opción 1' label."
+ },
+ "6": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V5",
+   "V4",
+   "V2",
+   "V6",
+   "V3"
+  ],
+  "note": "V1 keeps the hook, folds the slogan line into a natural sentence. V2 drops 'Así' (link to the reel). V3 invents 'media mañana' and a 'no a manual de...' contrast. V6 replaces the hook and adds a draft workflow not in the original."
+ },
+ "7": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 6,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V3",
+   "V4",
+   "V2",
+   "V1",
+   "V6"
+  ],
+  "note": "V5 sounds most Chilean ('dar vértigo', 'la estoy pasando bien'), drops one hashtag. V3/V4 merge the arrow list well and keep everything. V1 reads human but adds a promise ('quiero responderles haciendo bien mi trabajo') and loosens the lessons. V6 keeps 'No fue una decisión impulsiva' and '(y humilde)'."
+ },
+ "8": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 6,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V2",
+   "V1",
+   "V6",
+   "V5",
+   "V4"
+  ],
+  "note": "V3 tight and faithful. V5 invents 'Todavía me suena raro', 'hace un mes' and changes the closing question. V4 invents 'organizarme', 'ya estoy trabajando' and 'no sé cómo irá todo', uses 'montar'."
+ },
+ "9": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V1",
+   "V3",
+   "V5",
+   "V6",
+   "V2"
+  ],
+  "note": "V4 keeps every fact and turns the value list into plain prose. V1 lively, 'Pásate' slightly Spain. V6 keeps the Honestidad/Transparencia label list and the 'en buenas manos' closer. V2 invents 'como él nos enseñó', 'sin tecnicismos', recommendations, and drops the value list."
+ },
+ "10": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V4",
+   "V5",
+   "V1",
+   "V3",
+   "V2"
+  ],
+  "note": "V6 sounds like the family talking ('sin dar tantas vueltas'), all facts kept. V2 reads human but invents 'qué puede esperar', 'por qué pagas lo que pagas' and 'las mismas caras'."
+ },
+ "11": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 6,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V1",
+   "V5",
+   "V6",
+   "V2",
+   "V3"
+  ],
+  "note": "V4 and V1 tidy the prose and keep the structure and figures. V2 adds 'al día siguiente' and a client-history example ('varios colegios'). V3 restructures, drops 'Resumen ejecutivo', adds privacy/authorship and student data. V6 adds a shaky definition of generative AI."
+ },
+ "12": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V5",
+   "V4",
+   "V1",
+   "V3",
+   "V2"
+  ],
+  "note": "V6 concise, keeps all facts. V4's 'La capacitación son 4 sesiones' is too oral for a proposal. V5 adds 'crítico'. V2 stays close to the original's stiff phrasing."
+ },
+ "13": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 7,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V5",
+   "V2",
+   "V6",
+   "V4"
+  ],
+  "note": "V1 natural, drops the slogan closer. V4 turns 'se fueron con buenas recomendaciones' into 'ojalá te hayan servido' and drops the favourite-spot line. V6 loses the view (only 'terraza')."
+ },
+ "14": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V1",
+   "V2",
+   "V5",
+   "V6",
+   "V4"
+  ],
+  "note": "V3 fixes the stiff 'Le compartiremos' and changes nothing else. V1 adds 'seguro le dará mucho gusto'. V5/V6 are the original unchanged. V4 drops the view."
+ },
+ "15": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V5",
+   "V4",
+   "V6",
+   "V2",
+   "V1"
+  ],
+  "note": "V3 cuts the template intro (incl. 'empieza el frío', which is wrong for a Chilean November) but uses a dashed aside and drops the chairs. V4 mixes ustedes/te. V1 is closest to the AI original."
+ },
+ "16": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 5,
+    "faithful": 7,
+    "useful": 6
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V6",
+   "V3",
+   "V4",
+   "V5",
+   "V2"
+  ],
+  "note": "V1 direct and natural ('Anota la fecha'). V2 is Spain Spanish ('te apetece', 'nos hacía ilusión', 'les ayudamos') and invents the eager-wait line."
+ },
+ "17": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V6",
+   "V3",
+   "V4",
+   "V5",
+   "V2"
+  ],
+  "note": "Human original; V1 light touch. V2 softens the firm third reminder ('no hay drama', 'no sé si se te pasó', 'Un abrazo'), changing the stance. V4 drops 'segundo pago'. V5 is the original unchanged."
+ }
+}

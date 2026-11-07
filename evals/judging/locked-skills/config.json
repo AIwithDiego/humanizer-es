@@ -1,0 +1,3 @@
+{"seed": 20261111, "split": "locked", "inputs": "runs/locked/inputs",
+ "arms": {"A2": "runs/locked/A2", "A1": "runs/locked/A1", "B": "runs/locked/B", "C": "runs/locked/C", "D": "runs/locked/D", "E": "runs/locked/E"},
+ "names": {"A2": "ours v1.3 + 2nd", "A1": "ours v1.3", "B": "omelyanchuk", "C": "alvaromieres9", "D": "madebydiego", "E": "blader (EN) + Codex"}}

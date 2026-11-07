@@ -1,0 +1,1 @@
+b21-gpt.md: extracted by hand from raw/b21-gpt.md. Rule: first full version only, dropped the intro line, separators, bold markers on the greeting, the model's inline bracketed advice note and its list of changes/advice.

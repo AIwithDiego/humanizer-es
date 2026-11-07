@@ -1,0 +1,1 @@
+Mochila de lona encerada, hecha a mano en Valdivia. Tiene un estilo sencillo y 22 litros de capacidad, con espacio para lo que llevas cada día. El compartimento para notebook admite equipos de hasta 15 pulgadas, así que cada cosa va en su lugar. Sirve para llevarla de la casa al trabajo.
