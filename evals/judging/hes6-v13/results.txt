@@ -1,0 +1,60 @@
+
+CLAUDE JUDGES · AI texts  (90 verdicts)
+skill                   human  faith useful   rank  wins  fact err  own err
+ours v1.3 + 2nd           7.9    9.2    8.6   2.36    31     0/90     0/90
+alvaromieres9             7.8    8.8    8.1   3.17    23     0/90     0/90
+ours v1.2 + 2nd           7.9    8.6    8.2   3.21     9     0/90     0/90
+blader (EN) + Codex       7.6    9.0    8.1   3.34     9     0/90     0/90
+madebydiego               7.4    8.5    7.9   3.83     9     0/90     0/90
+omelyanchuk               5.8    8.8    7.0   5.09     9     3/90     3/90
+
+CLAUDE JUDGES · human controls  (12 verdicts)
+skill                   human  faith useful   rank  wins  fact err  own err
+ours v1.2 + 2nd           8.7    9.8    8.4   3.00     0     0/12     0/12
+alvaromieres9             8.4    9.4    8.7   3.17     4     0/12     0/12
+blader (EN) + Codex       8.7    9.8    8.4   3.25     1     0/12     0/12
+ours v1.3 + 2nd           8.7    9.8    8.4   3.50     3     0/12     0/12
+omelyanchuk               8.7    9.8    8.8   3.83     3     0/12     0/12
+madebydiego               8.7    9.8    8.4   4.25     1     0/12     0/12
+
+GPT JUDGES · AI texts  (90 verdicts)
+skill                   human  faith useful   rank  wins  fact err  own err
+ours v1.3 + 2nd           8.7    9.1    8.8   2.03    46    15/90     3/90
+ours v1.2 + 2nd           8.5    7.6    8.1   3.14    11    36/90    21/90
+blader (EN) + Codex       8.1    8.2    8.1   3.37    13    29/90    14/90
+alvaromieres9             8.1    7.7    7.7   3.99     3    35/90    20/90
+omelyanchuk               7.1    8.2    7.6   4.19     8    27/90    12/90
+madebydiego               7.9    7.1    7.6   4.28     9    47/90    32/90
+
+GPT JUDGES · human controls  (12 verdicts)
+skill                   human  faith useful   rank  wins  fact err  own err
+alvaromieres9             8.8    8.8    8.1   1.75     9     3/12     0/12
+ours v1.2 + 2nd           8.5    8.8    6.8   3.25     0     3/12     0/12
+blader (EN) + Codex       8.5    8.8    6.8   3.50     0     3/12     0/12
+ours v1.3 + 2nd           8.5    8.8    6.8   3.75     3     3/12     0/12
+omelyanchuk               8.5    8.8    7.1   4.25     0     3/12     0/12
+madebydiego               8.5    8.8    6.8   4.50     0     3/12     0/12
+
+COMBINED · AI texts  (180 verdicts)
+skill                   human  faith useful   rank  wins  fact err  own err
+ours v1.3 + 2nd           8.3    9.2    8.7   2.19    77    15/180     3/180
+ours v1.2 + 2nd           8.2    8.1    8.2   3.18    20    36/180    21/180
+blader (EN) + Codex       7.8    8.6    8.1   3.36    22    29/180    14/180
+alvaromieres9             7.9    8.3    7.9   3.58    26    35/180    20/180
+madebydiego               7.7    7.8    7.7   4.06    18    47/180    32/180
+omelyanchuk               6.5    8.5    7.3   4.64    17    30/180    15/180
+
+COMBINED · human controls  (24 verdicts)
+skill                   human  faith useful   rank  wins  fact err  own err
+alvaromieres9             8.6    9.1    8.4   2.46    13     3/24     0/24
+ours v1.2 + 2nd           8.6    9.3    7.6   3.12     0     3/24     0/24
+blader (EN) + Codex       8.6    9.3    7.6   3.38     1     3/24     0/24
+ours v1.3 + 2nd           8.6    9.3    7.6   3.62     6     3/24     0/24
+omelyanchuk               8.6    9.3    8.0   4.04     3     3/24     0/24
+madebydiego               8.6    9.3    7.6   4.38     1     3/24     0/24
+
+Human controls, how much of the original survives (difflib ratio, 1.00 = untouched):
+h01 ours v1.3  1.000  ours v1.2  1.000  omelyanchu 0.996  alvaromier 0.701  madebydieg 1.000  blader (EN 1.000
+h04 ours v1.3  1.000  ours v1.2  1.000  omelyanchu 1.000  alvaromier 0.721  madebydieg 1.000  blader (EN 1.000
+h06 ours v1.3  1.000  ours v1.2  1.000  omelyanchu 1.000  alvaromier 0.824  madebydieg 1.000  blader (EN 1.000
+h08 ours v1.3  1.000  ours v1.2  1.000  omelyanchu 1.000  alvaromier 1.000  madebydieg 1.000  blader (EN 1.000

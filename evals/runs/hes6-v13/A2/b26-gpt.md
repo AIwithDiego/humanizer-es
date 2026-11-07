@@ -1,0 +1,1 @@
+Con un limonero en maceta en Santiago puedes disfrutar del aroma de sus flores y, con paciencia, cosechar limones en casa. En invierno, el mayor riesgo son las heladas. Te cuento cómo cuidarlo en los meses fríos y protegerlo de las bajas temperaturas para que llegue bien a la primavera.

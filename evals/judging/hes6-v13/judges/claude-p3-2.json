@@ -1,0 +1,733 @@
+{
+ "18": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V5": {
+    "human": 4,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V6",
+   "V2",
+   "V1",
+   "V4",
+   "V5"
+  ],
+  "note": "V3 wins: Hola + $850.000 + 'Cualquier duda, me avisas' reads Chilean, consistent nos. V4 mixes Estimado/a with casual close and me/nos. V1 me/nos mix. V5 is the original's stiff 'regularizaras a la brevedad'. No facts lost."
+ },
+ "19": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 4,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V1",
+   "V6",
+   "V2",
+   "V4",
+   "V5"
+  ],
+  "note": "V3 most natural, keeps all facts. V1 drops 'buena disposicion'. V6 drops 'con foco en el buen cafe' from intro and 'buena disposicion', changes 'estandares' to 'recetas'. V5 barely edited (keeps Title-ish header and stock lines). All keep 380.000, Nunoa, weekends, specialty coffee."
+ },
+ "20": {
+  "scores": {
+   "V1": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V5",
+   "V1",
+   "V6",
+   "V4",
+   "V3"
+  ],
+  "note": "V2 lighter labels, keeps everything incl. Nunoa line and opening question. V3 and V4 drop the opening question and the 'Lugar de trabajo en Nunoa' line (Nunoa only in title); V3 also changes estacion to barra. V6 'Si te gusta..., buscamos' logic is a bit off. V1 nearly unchanged."
+ },
+ "21": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 6,
+    "useful": 6
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V5",
+   "V3",
+   "V6",
+   "V2",
+   "V1"
+  ],
+  "note": "V4 natural Chilean register (sala, fuera de clases), keeps commitment/flexibility. V5 'llevo seis anos haciendo clases' good but 'desarrollar lo que tiene' off. V3 drops 'comprometida, flexible, actualizada'. V1 drops prestige/approach, commitment and 'desarrollar su potencial'. V2 replaces prestige with a placeholder, awkward 'Del CELTA saque como planifico', changes potential line. V6 faithful but still stiff."
+ },
+ "22": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V5",
+   "V1",
+   "V3",
+   "V6",
+   "V2"
+  ],
+  "note": "V4 natural and keeps experiencia y formacion. V5 close behind. V1/V3 drop formacion/compromiso; V3 adds 'y habla'. V6 recasts confianza as 'pierda el miedo' and 'lo hago participar' is awkward. V2 keeps 'Me dirijo a ustedes', barely edited."
+ },
+ "23": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 4,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V3",
+   "V4",
+   "V1",
+   "V2",
+   "V5"
+  ],
+  "note": "V6 keeps all claims incl. Pura and 100% natural, natural 'muy rica para untar'. V3 and V4 solid; V4 drops 'aromatico'. V1 drops 'Pura' and '100% natural'. V2 keeps emojis/caps, drops the endulzante bullet and 'aromatico', swaps despacho note for placeholders. V5 near-original, AI emojis/caps style intact apart from emojis."
+ },
+ "24": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V4",
+   "V3",
+   "V6",
+   "V5",
+   "V1"
+  ],
+  "note": "V2 clean and complete. V4 good, Chiloe only in title. V3 keeps infinitive 'Conservar'. V6 'Va bien con pan, para endulzar...' not parallel. V1 and V5 drop 'sabor y aroma'; V1 reduces recipes to 'cocinar'."
+ },
+ "25": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 4,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V4",
+   "V2",
+   "V6",
+   "V3",
+   "V5"
+  ],
+  "note": "V1 keeps the voice, cuts 'la buena noticia' cliche; drops 'manejar su entorno'. V4 good, drops Santiago from first sentence (kept as santiaguino). V3 run-on 'hasta que llegan junio', 'hacerle botar' shifts meaning, drops 'En este post'. V6 'al menos una ventaja' adds a grudging tone. V5 unchanged AI original."
+ },
+ "26": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V2",
+   "V4",
+   "V5",
+   "V1",
+   "V3",
+   "V6"
+  ],
+  "note": "V2 and V4 natural and complete. V3 drops 'protegerlo de las bajas temperaturas'. V6 near-original ('es una forma de', 'principal desafio')."
+ },
+ "27": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 5,
+    "faithful": 6,
+    "useful": 5
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V3",
+   "V6",
+   "V1",
+   "V2",
+   "V4"
+  ],
+  "note": "V5 most natural ('al tiro'), keeps every point. V3 drops 'lo que mas importa' only. V6 slight anacoluthon but fine. V1 drops 'siempre que se use donde corresponde'. V2 keeps the 'no reemplaza: le quita' contrast. V4 deletes the final paragraph and keeps 'derive... amerite' stiffness."
+ },
+ "28": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V2",
+   "V4",
+   "V6",
+   "V3",
+   "V5"
+  ],
+  "note": "V1 natural and complete. V3 drops 'que escuche'. V6 'sirve para' weakens 'buena aliada' slightly. V5 keeps 'buena aliada' and 'la clave'-style stock phrasing (now 'Conviene...')."
+ },
+ "29": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V5",
+   "V4",
+   "V6",
+   "V1",
+   "V2"
+  ],
+  "note": "V3 keeps '¡Vamos por mas!' and only drops 'constancia' and one emoji. Others drop the closing '¡Vamos por mas!'. V1 also drops the ¡ and 'constancia'; V2 drops 'esfuerzo' and 'constancia' and all bold."
+ },
+ "30": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V6",
+   "V5",
+   "V3",
+   "V1",
+   "V4"
+  ],
+  "note": "V2 light touch, keeps tone and 'Se lo merecen'. V6 is the original unchanged, fine. V5/V3 drop 'compromiso'; V1 drops 'Se lo merecen'; V4 drops 'Felicitaciones' and the exclamations."
+ },
+ "31": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V5",
+   "V2",
+   "V1",
+   "V3",
+   "V4",
+   "V6"
+  ],
+  "note": "Human original. V5 fixes only typos (¡PAF!, mayo, Alla, de que, quien) and keeps the voice: ideal copy edit. V2 also fixes syntax and La Vega, slightly more rewriting but faithful. V1/V3/V4/V6 unchanged, typos left."
+ },
+ "32": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V1",
+   "V2",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "Human original. V3 is a light edit ('Buscamos', 'en cafe de especialidad'), slightly awkward 'hacer bien los pedidos'; others unchanged. The 400.000 full-time Santiago fact is absent in the original and in every version, so equal on faithfulness."
+ },
+ "33": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V2",
+   "V3",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "Human original. V1 fixes the awkward 'donde compra el alimento del regalon su dueno' and comma, keeps all facts. Others unchanged."
+ },
+ "34": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V2",
+   "V3",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "Human original (Spain register), all six identical and unchanged: tie."
+ }
+}

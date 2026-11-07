@@ -1,0 +1,17 @@
+- b17-gpt: kept "Te recuerdo que" (more direct opener) and "Si tienes alguna consulta, quedo a tu disposición".
+- b19-claude: kept all three: "dedicada al buen café", "trabajar con nosotros", "Durante los turnos de sábado y domingo, tus tareas serán:".
+- b19-gpt: nothing kept (only change was a neutral synonym swap).
+- b22-claude: kept the greeting "Estimado equipo de selección", the split first sentence, "aprendan a comunicarse en situaciones reales", the split CELTA sentence, the Irlanda paragraph wording, "por considerar mi postulación"; rejected "cuento con", "avances que pueda evaluar" (shifts "medible") and the subjunctive change.
+- b22-gpt: kept the split first sentence, "parto de las necesidades... y trabajo con", "anime", "por considerar mi postulación"; rejected "Me entusiasma aportar" (drops "la idea", firmer stance) and "trayectoria" for "perfil".
+- b24-claude: kept "producen esta miel"; rejected the texture split (detached texture from crystallization) and "a diario".
+- b24-gpt: kept everything (title without parenthesis, "Puedes usarla para... preparar tus recetas").
+- b26-claude: kept the semicolon split and "Aquí te cuento cómo prepararlo"; rejected the title change (lost the author's "(y sobrevivir a las heladas)").
+- b26-gpt: kept everything ("En invierno, el mayor riesgo son las heladas", dropped "En este post").
+- b28-claude: kept the merged first paragraph and "habla con una máquina"; rejected the merged reclamos paragraph (lost the turn) and the new ending (one-line closer "La IA no lo reemplaza.").
+- b28-gpt: kept everything ("responde a", "le deja más tiempo", simpler last sentence).
+- b30-claude: kept "Octubre fue el mejor mes del año"; rejected "Lo logramos gracias al... que le pusieron" (mixes persons).
+- b30-gpt: kept everything ("gracias al esfuerzo y al compromiso").
+- h01: did not run (returned unchanged at step 1, human text).
+- h04: did not run (returned unchanged at step 1, human text).
+- h06: did not run (returned unchanged at step 1, human text).
+- h08: did not run (returned unchanged at step 1, human text, Spain variant kept).
