@@ -1,0 +1,733 @@
+{
+ "18": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V2",
+   "V1",
+   "V6",
+   "V4",
+   "V5"
+  ],
+  "note": "V3 wins: direct, polite and natural for a client email, with smoother grammar than V2. All versions preserve the amount, invoice number, deadline and payment requests without adding promises. V5 retains the most bureaucratic wording."
+ },
+ "19": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V5",
+   "V1",
+   "V6",
+   "V2",
+   "V4",
+   "V3"
+  ],
+  "note": "V5 wins with clear duties and a friendly, credible employer voice. No material employment facts are lost or invented; V2 slightly narrows house standards to recipes. V3's unfinished 'recomendarles' is awkward. All retain unfinished hours, contact details and the internal benefits instruction, preventing immediate publication."
+ },
+ "20": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V3",
+   "V1",
+   "V2",
+   "V6"
+  ],
+  "note": "V5 wins: approachable, concise and easy to scan without sounding like HR. All preserve the required job facts; Ñuñoa remains in every title. V1 substitutes the bar for the workstation, a slight scope shift. V6's opening conditional is clumsy. The contact placeholder still needs filling."
+ },
+ "21": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 5
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 4,
+    "useful": 4
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V6",
+   "V2",
+   "V4",
+   "V1",
+   "V3",
+   "V5"
+  ],
+  "note": "V6 wins for a credible professional voice and broad coverage. V1/V6 omit prestige as a motivation; V2/V4 omit commitment, flexibility and ongoing development. V3 also drops the institutional motivation and student-potential stance. V5 replaces the stated motivation with a placeholder, omits Ireland's explicit language/cultural benefits and turns an educational aspiration into an asserted outcome. All retain the core credentials."
+ },
+ "22": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V3",
+   "V4",
+   "V1",
+   "V2",
+   "V5",
+   "V6"
+  ],
+  "note": "V3 wins with natural Chilean application language and appropriate warmth. All preserve the credentials but omit the explicit commitment offered to the institute; V1/V2/V6 also omit training from that offer. V6 introduces students' fear and replaces the aim of building trust with overcoming that fear. V5 sounds less enthusiastic than the original."
+ },
+ "23": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V6",
+   "V3",
+   "V4",
+   "V2",
+   "V1",
+   "V5"
+  ],
+  "note": "V6 wins with plain, appetizing wording and complete product information. V1/V5 omit the delicate aromatic description; V5 also changes crystallization from evidence of purity to something normal in pure honey. The other versions preserve the claims without material additions. Every version retains unfinished dispatch information."
+ },
+ "24": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V2",
+   "V6",
+   "V1",
+   "V4",
+   "V5"
+  ],
+  "note": "V3 wins narrowly: 'va bien con pan' sounds like an actual seller while preserving the information. V2 is equally usable. V1/V4/V5 drop the characteristic flavor and aroma claim. All retain the origin, weight, jar, unpasteurized status, storage instructions and infant warning; none invents a benefit."
+ },
+ "25": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V2",
+   "V6",
+   "V4",
+   "V5"
+  ],
+  "note": "V1 wins by keeping the practical detail while making the prose more conversational. V3 is complete but retains stock transitions. V2/V4/V5/V6 omit managing the tree's surroundings as a separate advantage of the pot. All preserve Santiago, winter frost, timing and possible damage; none adds a new care promise."
+ },
+ "26": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V6",
+   "V3",
+   "V2",
+   "V1",
+   "V5"
+  ],
+  "note": "V4 wins: natural, restrained and faithful to the original's possibility of harvesting with patience. V6 is smooth but softens frost's status as the main challenge. V5 asserts that frost causes the most damage, stronger than calling it the main challenge, and drops the explicit protection promise. No version loses the required setting."
+ },
+ "27": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V6",
+   "V2",
+   "V5",
+   "V1",
+   "V4"
+  ],
+  "note": "V3 wins by integrating the conclusion into two coherent paragraphs without a slogan-like recap. V1's repeated conjunctions make the complaints sentence awkward. V4 drops the closing point about the team's continuing role in solving problems and maintaining customer relationships. The other versions preserve the substance without inventions."
+ },
+ "28": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V2",
+   "V4",
+   "V6",
+   "V5"
+  ],
+  "note": "V1 wins with straightforward language and complete meaning; V3 adds a little unnecessary padding. V5 changes the qualified endorsement into an assertion and loses the emphasis on easy human access. V6 omits listening from the person's role. V1–V4 introduce no material facts or commitments."
+ },
+ "29": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V6",
+   "V2",
+   "V3",
+   "V1",
+   "V4",
+   "V5"
+  ],
+  "note": "V6 wins for warm, ordinary team-message wording. Every version omits the required five-person team size, which is also absent from the original body. All preserve the sales comparison, best month, Friday invitation and later confirmation. V5 reduces the credit to enthusiasm alone; V3 retains the original rallying closer."
+ },
+ "30": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V6",
+   "V4",
+   "V2",
+   "V3",
+   "V1",
+   "V5"
+  ],
+  "note": "V6 wins: the original already sounds like a sincere celebratory team message. All omit the five-person team size required by the Facts line, though the original body also omits it. V1/V3 drop explicit credit for commitment; V2/V4 drop 'you deserve it'; V5 also loses the explicit congratulations. No version invents lunch arrangements."
+ },
+ "31": {
+  "scores": {
+   "V1": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V1",
+   "V2",
+   "V3",
+   "V5",
+   "V6"
+  ],
+  "note": "V4 wins by untangling sentences and fixing punctuation while preserving the Chilean voice, humor and every fact. V1 makes smaller useful corrections. V2/V3/V5/V6 are identical and tied; their ranking order is arbitrary. No version invents or loses information."
+ },
+ "32": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V4",
+   "V1",
+   "V2",
+   "V3",
+   "V5",
+   "V6"
+  ],
+  "note": "V4 wins with clearer verbs and more natural recruitment language, although the preparation clause remains awkward. All omit the required $400,000 net salary, explicit full-time status and Santiago location, also missing from the original body. Duties and hours survive. V1/V2/V3/V5/V6 are identical and tied."
+ },
+ "33": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V6",
+   "V1",
+   "V2",
+   "V3",
+   "V4",
+   "V5"
+  ],
+  "note": "V6 wins by fixing the awkward owner/pet word order and making the transition readable while preserving attribution, spending figure, ranking and chronology. Its transition remains somewhat stock. V1–V5 are identical and tied, with arbitrary ordering. No version invents or drops a fact."
+ },
+ "34": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V2",
+   "V3",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "All six are identical and tied; V1 is listed first only to satisfy the ranking format. Concrete incidents and the candid time-saving qualification sound human. 'Datáfono', 'tíquets' and 'céntimos' feel Spanish rather than Chilean, but changing the monetary facts would be inappropriate. Nothing is invented or lost."
+ }
+}

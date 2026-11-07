@@ -1,0 +1,1 @@
+La IA puede ayudar mucho a atender una tienda online: contesta rápido las preguntas frecuentes sobre despachos o tallas y le libera tiempo al equipo. Pero cuando hay un reclamo, hace falta una persona que escuche, entienda el problema y se haga cargo de solucionarlo. Lo que conviene es automatizar lo repetitivo y hacer fácil que el cliente hable con alguien cuando lo necesita.

@@ -1,0 +1,3 @@
+{"seed": 20261107,
+ "arms": {"A1": "runs/hes5/A1", "A2": "runs/hes5/A2", "B": "runs/hes5/B", "C": "runs/hes5/C", "D": "runs/hes5/D", "E": "runs/hes5/E"},
+ "names": {"A1": "ours v1.2", "A2": "ours v1.2 + 2nd", "B": "omelyanchuk", "C": "alvaromieres9", "D": "madebydiego", "E": "blader (EN) + Codex"}}

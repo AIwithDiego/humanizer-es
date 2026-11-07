@@ -1,0 +1,3 @@
+Tipo de texto: blog-conclusion
+
+La IA puede ser una buena aliada para atender una tienda online: resuelve rápido preguntas frecuentes sobre despachos o tallas y libera tiempo del equipo. Pero cuando hay un reclamo, hace falta una persona que escuche, entienda el problema y se haga cargo de la solución. La clave está en automatizar lo repetitivo y facilitar el contacto humano cuando el cliente lo necesita.
