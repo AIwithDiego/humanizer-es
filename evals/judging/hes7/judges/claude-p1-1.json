@@ -1,0 +1,733 @@
+{
+ "1": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 6,
+    "useful": 6
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 5,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V2",
+   "V5",
+   "V1",
+   "V3",
+   "V4",
+   "V6"
+  ],
+  "note": "V2 wins: Chilean 'se atrasa', keeps the apology and reassurance, natural. V1 drops the apology. V3 has Spain touches (afectó a, perdona). V4 adds 'sé que no es lo ideal', invites calls, 'Un abrazo' too familiar for a client. V6 Spain Spanish (coste, ha tenido) and adds a promise to keep her updated."
+ },
+ "2": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 6
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V4": {
+    "human": 5,
+    "faithful": 8,
+    "useful": 5
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 4,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V1",
+   "V5",
+   "V3",
+   "V2",
+   "V4",
+   "V6"
+  ],
+  "note": "V1 wins: Chilean (se atrasa, costo, Saludos), keeps every fact and the thanks. V5 close second. V2 and V4 keep Spain 'coste/supondrá'. V6 invents a reason ('preferimos darte la web bien terminada antes que con prisas'), 'coste extra', 'Un abrazo'."
+ },
+ "3": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V6",
+   "V5",
+   "V4",
+   "V1"
+  ],
+  "note": "V2/V3 identical and best: one natural WhatsApp line with all details. V1 strips the emojis and reads dry. V4 softens 'llegar 10 minutos antes' to 'si puedes, unos 10 minutos'. V5 turns confirmation into a reminder, still fine."
+ },
+ "4": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V4",
+   "V5",
+   "V2",
+   "V6",
+   "V1"
+  ],
+  "note": "Human-sounding original; V3/V4/V5 leave it untouched, which is right. V2 near identical. V6 fine rewrite. V1 softens the requirement ('si puedes, unos 10 minutos')."
+ },
+ "5": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 5,
+    "faithful": 9,
+    "useful": 6
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 8,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V6",
+   "V2",
+   "V4",
+   "V5",
+   "V1",
+   "V3"
+  ],
+  "note": "V6 wins: sounds like a real Chilean pastry shop (suavecito, vuela, separarla), all facts kept. V2 and V4 good, V4 trims hashtags. V1 and V3 flat, lose the voice. No fact errors."
+ },
+ "6": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 5
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 6
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V6",
+   "V3",
+   "V5",
+   "V1",
+   "V2"
+  ],
+  "note": "V4 wins: playful, natural, all facts. V6 clean and natural. V1/V5 too bare for a caption. V2 invents a first-person home baker ('Hice una torta') and changes '15 o 20 personas' to '15-20 porciones'."
+ },
+ "7": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 5,
+    "faithful": 9,
+    "useful": 6
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 6,
+    "useful": 4
+   }
+  },
+  "rank": [
+   "V5",
+   "V2",
+   "V1",
+   "V4",
+   "V3",
+   "V6"
+  ],
+  "note": "V5 wins: keeps the numbered lessons but loses the bold/template feel, natural, all facts. V2 good prose. V1 faithful but keeps the 'no al revés' closer. V3 awkward 'panel de datos', repetitive. V4 invents 'Hace unos meses' and shifts to first person singular. V6 uses vosotros (Os ha pasado, seguís), wrong for Chile, and rewrites the question."
+ },
+ "8": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 7,
+    "useful": 6
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 5
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 6
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V6",
+   "V3",
+   "V5",
+   "V2",
+   "V4"
+  ],
+  "note": "V1 wins: tighter, natural, Chilean 'Les'. V6/V3 near-original with Les. V5 keeps 'Habéis'. V2 restructures, adds 'como habían hecho siempre', keeps 'Os'. V4 Spain register (meter tecnología, vuestras experiencias)."
+ },
+ "9": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V5",
+   "V2",
+   "V1",
+   "V6",
+   "V3"
+  ],
+  "note": "V4 wins: natural prose, drops the bold-label list, keeps all facts. V5 similar. V1 barely changed. V3 Chilean and lively but invents details ('si el clima lo pide', 'menos filas', 'trabajamos con las comunidades'). V6 rewrites heavily, minor additions."
+ },
+ "10": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V3",
+   "V4",
+   "V1",
+   "V6",
+   "V5",
+   "V2"
+  ],
+  "note": "V3 wins: smooth, removes the repeated closer, all facts. V4 close. V2 invents ('forma de vida', 'buena comida, buena charla', 'resolver imprevistos'). V5 adds new imagery, 'sin prisas'. V6 drops the closing line, ends flat."
+ },
+ "11": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 5,
+    "faithful": 7,
+    "useful": 6
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V3",
+   "V1",
+   "V2",
+   "V6",
+   "V5"
+  ],
+  "note": "V4 wins: plain Chilean proposal language, all scope items kept, drops the dangling 'Cumplir'. V3 warm 'ustedes' voice, slight change on tracking number. V1 light clean edit. V2 'finalización de compra' stiff. V6 unchanged. V5 adds em dashes, prose blocks, rephrases the >25 wines exclusion, drops '(ver supuestos)'."
+ },
+ "12": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V2",
+   "V5",
+   "V4",
+   "V1",
+   "V3"
+  ],
+  "note": "V6 wins: plainer verbs, list without bold labels, all facts. V2 good 'nosotros' voice. V4 addresses the winery directly ('tu viña'), 'facilites' a touch Spain. V1/V3 essentially the original."
+ },
+ "13": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 5,
+    "faithful": 6,
+    "useful": 4
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 5,
+    "useful": 4
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V4",
+   "V6",
+   "V3",
+   "V5"
+  ],
+  "note": "V2 wins: Chilean ustedes, natural, keeps apology and offer. V1/V4 close. V6 faithful but vosotros. V3 vosotros and adds 'lo hemos hablado con el equipo'. V5 vosotros, invents 'nadie se acercó', 'en cuanto os sentasteis' and a promise to warn tables."
+ },
+ "14": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V5",
+   "V1",
+   "V2",
+   "V6",
+   "V3"
+  ],
+  "note": "V4 wins: light polish, keeps everything. V5 natural, 'Perdona' fine. V1/V2/V6 untouched original. V3 adds 'se nos puso mal el turno', promise 'lo vamos a tener en cuenta' and 'ojalá nos des otra oportunidad'."
+ },
+ "15": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 7,
+    "useful": 6
+   },
+   "V3": {
+    "human": 5,
+    "faithful": 9,
+    "useful": 6
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V5",
+   "V1",
+   "V6",
+   "V2",
+   "V3"
+  ],
+  "note": "V4 wins: natural Chilean newsletter, keeps all facts and benefits. V5 close. V1 clean but flat. V6 keeps 'nuestra comunidad' template. V2 'hacer el pino' (Spain) and 'sin pena' (Mexico), adds 'Por fin'. V3 Spain 'esterilla', 'hemos renovado'."
+ },
+ "16": {
+  "scores": {
+   "V1": {
+    "human": 5,
+    "faithful": 8,
+    "useful": 6
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V5": {
+    "human": 5,
+    "faithful": 8,
+    "useful": 5
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V6",
+   "V4",
+   "V1",
+   "V5"
+  ],
+  "note": "V2 wins: Chilean 'feriados', 'ya cambiamos', keeps the tone. V3 correct but flat. V4/V6 keep Spain 'festivos/hemos cambiado'. V1 Spain 'te apetece', adds 'cuéntanos qué te parece'. V5 mixes os/tú, 'seguir ahí'."
+ },
+ "17": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 7,
+    "useful": 5
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V5",
+   "V3",
+   "V6",
+   "V4"
+  ],
+  "note": "V2 wins: trimmed but keeps all content including the relationship line. V1 drops 'valoramos la relación'. V3 mixes 'Hola' with usted, turns the request into a question. V6 mixes 'Estimado/a' with tú. V4 switches to tú and 'Un abrazo', too casual for a collection notice."
+ }
+}

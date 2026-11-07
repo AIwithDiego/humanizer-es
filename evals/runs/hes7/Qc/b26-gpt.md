@@ -1,0 +1,1 @@
+Un limonero en maceta en Santiago da gusto: en primavera el olor de sus flores perfuma todo y, si le tienes paciencia, hasta te regala limones de tu propia casa. Pero el invierno es otra historia, y las heladas pueden dejarlo muy complicado. Te cuento cómo lo cuido en los meses fríos para que llegue sano a la primavera.

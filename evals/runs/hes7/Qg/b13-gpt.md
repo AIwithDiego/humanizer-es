@@ -1,0 +1,1 @@
+Gracias por contarnos tu experiencia. Nos alegra que disfrutaras de la comida, pero sentimos haberte hecho esperar 50 minutos sin avisarte del retraso. Ese sábado nos faltaba un cocinero, aunque eso no justifica que no te dijéramos nada. Tendríamos que habértelo contado para que pudieras decidir si querías esperar. Perdona por la espera y por la falta de comunicación.

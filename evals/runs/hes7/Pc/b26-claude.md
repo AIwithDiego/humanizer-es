@@ -1,0 +1,3 @@
+**Cómo cuidar un limonero en maceta en Santiago (y sobrevivir a las heladas)**
+
+Un limonero en el balcón o en el patio da flores que perfuman, hojas verdes todo el año y limones frescos a pasos de la cocina. Pero en junio y julio hay madrugadas bajo los 0 °C. El limonero es un árbol de origen subtropical y no tolera bien el frío intenso: una sola noche de helada puede quemar las hojas, botar las flores y dejar la planta muy debilitada. En maceta, en cambio, puedes moverlo, protegerlo y manejar su entorno. En este post te cuento cómo preparar tu limonero para el invierno santiaguino y qué hacer para que, año tras año, siga dándote limones.

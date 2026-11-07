@@ -1,0 +1,733 @@
+{
+ "18": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V6",
+   "V5",
+   "V4",
+   "V3",
+   "V2"
+  ],
+  "note": "V1 wins: warm, direct, sounds like a real Chilean reminder while keeping invoice, amount and due date. V4 is close but 'Un saludo' feels Spanish. V2 barely changed the stiff original. No facts lost."
+ },
+ "19": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V4",
+   "V6",
+   "V3",
+   "V1",
+   "V5",
+   "V2"
+  ],
+  "note": "V4 wins: natural Chilean job post, all facts kept. V3 adds an invented joke ('a nosotros no tanto'). V1 adds 'trabajar bien en equipo' and shared-duty framing. V2 drops 'buen café' focus and the other-benefits placeholder; V5 drops the role description and 'buen café'."
+ },
+ "20": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V5",
+   "V6",
+   "V3",
+   "V4"
+  ],
+  "note": "V2 wins: short natural prose post with every fact. V3 is unchanged from the template-ish original. V4 invents 'ambiente tranquilo', 'equipo chico', loosens the specialty-coffee preference ('ganas de aprender también') and promises to contact applicants."
+ },
+ "21": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V5",
+   "V2",
+   "V1",
+   "V4",
+   "V6",
+   "V3"
+  ],
+  "note": "V5 wins: sounds like a Chilean teacher ('haciendo clases', 'la sala'), keeps all facts. V2 warm but adds 'enfoque que admiro'. V3 rewrites content: drops measurable progress and prestige, invents new teaching claims, removes the adapt placeholder. V4 drops 'comprometida, flexible'. V6 drops the placeholder and stays stiff."
+ },
+ "22": {
+  "scores": {
+   "V1": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V3",
+   "V5",
+   "V1",
+   "V6",
+   "V2"
+  ],
+  "note": "V4 wins: plain and natural ('en la sala'), all facts kept. V3 close. V5 good but 'Un cordial saludo' reads Spanish and adds 'equivocarse sin miedo'. V2 sounds Spanish ('me haría mucha ilusión') and invents teaching claims (speaking from day one, 'no solo completar ejercicios'). V1 and V6 barely change the stiff original."
+ },
+ "23": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V4",
+   "V6",
+   "V5",
+   "V2"
+  ],
+  "note": "V1 wins: natural product copy, every fact and warning kept. V3 nearly as good. V2 invents details (white flowers in summer, 'no empalaga', eat by the spoonful). V5 drops the botanical name, the purity claim and the bee/forest care line. V6 drops the shipping-times placeholder and loses heading formatting."
+ },
+ "24": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V6",
+   "V1",
+   "V4",
+   "V2",
+   "V5"
+  ],
+  "note": "V3 wins: smooth, keeps every fact incl. Chiloé beekeepers in the body. V6 close. V5 reads well but invents flavor ('suave pero con carácter'), buttered toast and a re-liquefying tip the original never gave."
+ },
+ "25": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 5
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V3",
+   "V1",
+   "V4",
+   "V6",
+   "V2",
+   "V5"
+  ],
+  "note": "V3 wins: natural Chilean blog voice, all facts. V2 has a typo ('ppercha') and adds a warmer corner idea. V5 invents details (lemon for the salad, 'cuando anuncien heladas') and changes the post's promised content. V6 has an odd 'en cambio'."
+ },
+ "26": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V3",
+   "V2",
+   "V4",
+   "V5",
+   "V1",
+   "V6"
+  ],
+  "note": "V3 wins: warm and natural ('tiene su encanto', 'estar pendiente'), facts intact. V1 turns it into personal experience ('cómo lo cuido') and adds spring scent. V6 is nearly the original."
+ },
+ "27": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V6",
+   "V4",
+   "V2",
+   "V1",
+   "V3"
+  ],
+  "note": "V5 wins: Chilean ('al tiro'), drops the 'no reemplaza, sino' closer, keeps all facts. V6 very natural but keeps the 'no viene a reemplazar' contrast. V3 adds a claim (customer shouldn't have to repeat everything) and drops 24/7 and 'leave forever'. V1 keeps the contrast closer."
+ },
+ "28": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V1",
+   "V5",
+   "V4",
+   "V2",
+   "V3"
+  ],
+  "note": "V6 wins: removes 'buena aliada' and 'la clave está' while keeping everything. V5 is very Chilean but inflates to 'gran ayuda'. V2 and V3 are identical to the AI-ish original."
+ },
+ "29": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V5",
+   "V3",
+   "V4",
+   "V2",
+   "V1"
+  ],
+  "note": "V6 wins: warm, natural boss message with all facts and the 'equipazo'. V5 nearly identical. V1 adds a 'no se logra por casualidad, se logra porque' contrast tell. V2 drops the 'equipazo' warmth. V4 changes the closer and timing wording slightly."
+ },
+ "30": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V4",
+   "V3",
+   "V5",
+   "V2",
+   "V1"
+  ],
+  "note": "V6 wins: drops 'fruto del esfuerzo y compromiso' stiffness and reads like a real owner. V5 is punchy but adds a 'no fue casualidad: fue' contrast. V1 is unchanged. No facts lost."
+ },
+ "31": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V6",
+   "V5",
+   "V4",
+   "V3",
+   "V2"
+  ],
+  "note": "Human original. V1 wins: light punctuation fixes, voice intact. V5 is untouched (fine). V2 rewrites into a polished post, drops the La Vega trend and the short version, adds a share request. V3 changes 'comida' to 'verduras', adds idioms and a new short version. V4 drops the short version."
+ },
+ "32": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V4",
+   "V3",
+   "V5",
+   "V1",
+   "V2",
+   "V6"
+  ],
+  "note": "V4 wins: smoother wording, keeps every duty and the quality requirement. V3 good, drops 'preparación'. V5 restructures with bullets and adds a call to action. V1 and V2 drop 'productos de excelente calidad'. V6 is unchanged. No version states the salary listed in Facts (not in the original either)."
+ },
+ "33": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V6",
+   "V3",
+   "V2",
+   "V1",
+   "V5"
+  ],
+  "note": "Human news original. V4 wins: light fixes to the comma and 'Tal cual', facts intact. V6 close. V1 restructures and loses 'principalmente'/the 'regalón' flavor. V5 slips into chatty register ('más plata', 'se les adelantaron') for news. V2 unchanged."
+ },
+ "34": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V5",
+   "V2",
+   "V4",
+   "V6"
+  ],
+  "note": "Human original; V1, V3 and V5 leave it untouched, which is right. V2 swaps 'datáfono'/'tíquets' for generic terms and drops 'cincuenta céntimos' wording. V4 adds a 'no ha desaparecido, se ha cambiado' contrast. V6 invents that the author leaves at the same time and changes the closing stance."
+ }
+}

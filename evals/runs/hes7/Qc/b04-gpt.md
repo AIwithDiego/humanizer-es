@@ -1,0 +1,1 @@
+Hola 😊 Te escribo para confirmar tu hora con la kinesióloga: jueves 13 a las 18:30, en Av. Providencia 1208, oficina 402. Si puedes, llega unos 10 minutos antes y no olvides tu orden médica. ¡Nos vemos!

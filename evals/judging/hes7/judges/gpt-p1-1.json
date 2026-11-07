@@ -1,0 +1,733 @@
+{
+ "1": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 4,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V2",
+   "V5",
+   "V3",
+   "V1",
+   "V4",
+   "V6"
+  ],
+  "note": "V2 wins with natural Chilean phrasing and the original apology intact. V1 drops the apology. V4 makes the confirmed date tentative and becomes overly familiar. V6 invents a promise to provide updates; 'coste' and its verb choices sound Spanish. V3 is faithful but also sounds Spanish."
+ },
+ "2": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 4,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V1",
+   "V5",
+   "V3",
+   "V2",
+   "V4",
+   "V6"
+  ],
+  "note": "V1 wins by preserving the reassurance, apology and update commitment in ordinary Chilean Spanish. V5 is equally natural but slightly less reassuring. V6 invents a rushed-versus-finished rationale and promises immediate updates. V2 and V4 retain the substance but use noticeably Spanish phrasing."
+ },
+ "3": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V6",
+   "V5",
+   "V1",
+   "V4"
+  ],
+  "note": "V2 and V3 are identical joint winners: natural clinic WhatsApps with every instruction preserved. V4 makes arriving early optional and approximate, and adds 'this Thursday.' The other versions retain the facts; V1 is somewhat cold."
+ },
+ "4": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V2": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V4": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   }
+  },
+  "rank": [
+   "V3",
+   "V4",
+   "V5",
+   "V2",
+   "V6",
+   "V1"
+  ],
+  "note": "V3, V4 and V5 reproduce the already natural original; V2 is effectively tied with them. Their ordering is arbitrary. V6 is also usable and faithful. V1 changes the firm ten-minute arrival instruction into an optional, approximate suggestion."
+ },
+ "5": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 4,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V1",
+   "V3",
+   "V2",
+   "V4",
+   "V5",
+   "V6"
+  ],
+  "note": "V1 wins by removing the sales padding while retaining the product details and ordering instructions. V4 loses the launch emphasis. V5 makes the ordering deadline less clear by attaching 48 hours to production. V6 invents abundant lúcuma and piles on forced conversational sales lines; 'separarla' is less natural here than 'reservarla.'"
+ },
+ "6": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 4,
+    "faithful": 3,
+    "useful": 4
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   }
+  },
+  "rank": [
+   "V6",
+   "V5",
+   "V3",
+   "V4",
+   "V1",
+   "V2"
+  ],
+  "note": "V6 wins with a believable bakery voice, clear ordering details and the original invitation to engage. V5 is clean but loses some warmth. V2 invents a personal baking anecdote and changes two sizes into a 15–20-portion range. V3 and V4 retain familiar advertising formulas."
+ },
+ "7": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 4,
+    "useful": 5
+   }
+  },
+  "rank": [
+   "V2",
+   "V5",
+   "V3",
+   "V1",
+   "V4",
+   "V6"
+  ],
+  "note": "V2 wins by turning the numbered lesson template into connected prose without losing substantive details. V4 invents 'a few months ago.' V6 drops post-treatment instructions and adds an admission that older patients' preferences had received insufficient attention; its 'os' and 'seguís' also miss Chile. V1 retains the stock closing maxim."
+ },
+ "8": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 4,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V6",
+   "V3",
+   "V5",
+   "V2",
+   "V4"
+  ],
+  "note": "V1 wins with smoother paragraphs, Chilean address and the crucial distinction between fewer messages and better care. V2 invents a longstanding calling habit. V4 adds an unexpected discovery, turns preference into observed calling behavior and strengthens the judgment against efficiency. V2, V4 and V5 retain Spanish audience forms."
+ },
+ "9": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V2",
+   "V1",
+   "V6",
+   "V3"
+  ],
+  "note": "V5 wins with natural Chilean phrasing and the original service commitments intact. V3 invents full-time employment, walking experience, weather-based changes, fewer queues and work with local communities. V6 adds an unhurried itinerary style and a history of returning. V1 remains conspicuously templated."
+ },
+ "10": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V3",
+   "V6",
+   "V1",
+   "V5",
+   "V2"
+  ],
+  "note": "V4 wins through restrained editing that preserves personal accompaniment and the relaxed travel approach. V1 slightly compresses the project's beginnings into starting the agency. V2 invents business growth, a lifestyle, meals and handling unforeseen problems. V5 loses the explicit commitment to accompanying each traveler personally."
+ },
+ "11": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 5
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 5,
+    "useful": 5
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 3,
+    "useful": 4
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 3,
+    "useful": 7
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 3,
+    "useful": 6
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 4,
+    "useful": 4
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V4",
+   "V6",
+   "V5",
+   "V3"
+  ],
+  "note": "V2 wins narrowly for clear, faithful scope wording. All omit the required small-vineyard detail. V1/V2/V3/V6 retain the unfinished 'Cumplir' bullet. V3/V4/V5 drop the obligation to supply tracking numbers, retaining only entry and notification. V3/V6 make shipping criteria conjunctive; V5 changes the extra-catalog exclusion to additional loading and omits explicit integration-environment testing."
+ },
+ "12": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 4,
+    "useful": 6
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V5",
+   "V3",
+   "V1",
+   "V2",
+   "V6",
+   "V4"
+  ],
+  "note": "V5 wins by simplifying the language while preserving responsibilities and exclusions. V1 and V3 are also sound proposals. V2 and V6 narrow the stated device coverage from mobile devices to phones. V4 additionally omits the vineyard's small size and describes mobile appearance rather than full adaptation."
+ },
+ "13": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 4,
+    "faithful": 4,
+    "useful": 4
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 3,
+    "faithful": 3,
+    "useful": 4
+   },
+   "V6": {
+    "human": 5,
+    "faithful": 10,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V4",
+   "V6",
+   "V3",
+   "V5"
+  ],
+  "note": "V2 wins with accountable, ordinary Chilean language and the personal-service promise preserved. V3 invents a team discussion and drops that explicit promise. V5 invents a team discussion and a firmer commitment to immediate warnings. V3, V5 and V6 retain conspicuous Spanish plural forms."
+ },
+ "14": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 5,
+    "faithful": 4,
+    "useful": 5
+   },
+   "V4": {
+    "human": 10,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V1",
+   "V2",
+   "V6",
+   "V5",
+   "V3"
+  ],
+  "note": "V4 wins by making a small, natural adjustment without changing the apology. V1, V2 and V6 are identical and tied. V5 preserves the substance but is wordier. V3 adds a bad-shift explanation, a commitment to take the feedback into account and an unsolicited request for another chance."
+ },
+ "15": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V2": {
+    "human": 4,
+    "faithful": 3,
+    "useful": 5
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 4,
+    "useful": 7
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V6",
+   "V1",
+   "V5",
+   "V3",
+   "V2"
+  ],
+  "note": "V4 wins with natural Chilean wording and all details preserved. V1 drops yoga's energy benefit; V5 drops flexibility and the thanks. V2/V3 omit the yoga benefits and improved cardio technology and comfort. V2 also invents a headstand reassurance and uses mismatched regional expressions; V3's 'esterilla' sounds Spanish."
+ },
+ "16": {
+  "scores": {
+   "V1": {
+    "human": 5,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V5": {
+    "human": 4,
+    "faithful": 9,
+    "useful": 6
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V4",
+   "V6",
+   "V1",
+   "V5"
+  ],
+  "note": "V2 wins by making appropriate Chilean changes such as 'feriados' and 'ya cambiamos' while retaining the newsletter's warmth. All preserve the essential facts. V3 becomes rather bare. V1 adds a feedback request and sounds Spanish; V5's 'os' is especially unsuitable. V4/V6 retain the less local 'festivos.'"
+ },
+ "17": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 10
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 6
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 7,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V2",
+   "V5",
+   "V1",
+   "V3",
+   "V6",
+   "V4"
+  ],
+  "note": "V2 wins by retaining the records qualification, preferred payment window and relationship-conscious tone. V1 makes the preferred deadline firm and removes the qualification. V3 replaces prompt payment with a feasibility question and also removes the qualification. V4 changes the formal relationship to familiar address and a hug. V5 drops the relationship reassurance; V6 mixes a formal salutation with familiar address."
+ }
+}

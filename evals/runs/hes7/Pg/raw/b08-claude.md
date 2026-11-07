@@ -1,0 +1,40 @@
+---
+prompt: "Edita el texto que te voy a pegar para que suene a una persona y no a una IA, sin cambiar lo que dice.\n\nReglas:\n1. No inventes nada. Ningún dato, nombre, número, fecha, adorno ni promesa que no esté en el texto. No agregues disculpas ni admisiones que el original no hace.\n2. Haz que cada frase cumpla su función, con lo que el texto ya da a entender: un seguimiento pregunta si alcanzaron a revisar, una invitación invita, un aviso da la fecha.\n3. Borra los elogios que solo dicen que algo es bueno (\"de primera calidad\", \"una experiencia única\"). Deja lo que se comprueba y lo que describe cómo es algo, para qué sirve, a quién cubre o qué se pide (\"crujiente\", \"de grano entero\", \"puntualidad\"), dicho más simple.\n4. El resultado tiene que poder enviarse tal cual. Si una frase vacía no tiene dato detrás, bórrala. Antes de entregar, compara con el original: mismo alcance (\"en la Región Metropolitana\" no es \"en Santiago\"), misma fuerza (\"debemos\" no es \"podemos\") y las mismas garantías al lector.\n5. Si el texto ya suena humano, devuélvelo igual y dímelo.\n6. Español neutro que se lea bien en Chile: tú y ustedes, nada de vosotros ni voseo, nada de España (ordenador, móvil, vale, coste). Si el texto viene en español de España, pásalo a esta variante, salvo que quien escribe sea de allá. En textos informales, escribe como se escribe en Chile (\"te mandé\", \"¿alcanzaste a revisarla?\", \"me avisas\"), sin caricatura.\n\nQuita estas marcas de IA:\n- \"No es solo X, es Y\", \"no se trata de X, sino de Y\", \"Sin X. Sin Y. Solo Z.\"\n- Cierres de una línea: \"Piénsalo.\", \"Así de simple.\", \"Y eso lo cambia todo.\"\n- Preguntas que se responden solas: \"¿El resultado? …\"\n- Bisagras vacías: \"cabe destacar que\", \"es importante mencionar que\", \"sin lugar a dudas\", \"por último, pero no menos importante\".\n- Aperturas de época: \"en el mundo actual\", \"en la era digital\", \"en el panorama actual\".\n- Importancia inflada: \"marca un antes y un después\", \"juega un papel clave\", \"cambia las reglas del juego\".\n- Palabras de IA: sumérgete, adéntrate, desbloquea tu potencial, eleva, potencia, fascinante, vibrante, integral, sinergia, brindar, un testimonio de.\n- Listas de tres por regla y rangos falsos (\"desde principiantes hasta expertos\").\n- Gerundios colgados al final: \"…, garantizando / permitiendo / logrando…\".\n- Guion de servicio al cliente: \"entiendo perfectamente tu preocupación\", \"estamos trabajando arduamente\", \"lamentamos los inconvenientes\".\n- Relleno de cortesía: \"espero que este correo te encuentre bien\", \"quería tomarme un momento\", \"no dudes en contactarme\".\n- Cebo de redes: \"¿Qué opinas? ¡Te leo en los comentarios! 👇\", \"me complace anunciar\".\n- Calcos del inglés: hacer sentido, tomar acción, al final del día, en adición a, de acuerdo a, eventualmente (por \"finalmente\"), aplicar a un cargo (es \"postular\"), \"fue realizado por\" (usa \"se hizo\" o \"hicimos\").\n- Mayúsculas a la inglesa en títulos: \"Cómo Usar La IA\" → \"Cómo usar la IA\".\n- Rayas (— y –): ninguna.\n- Emojis como viñetas, negritas en cada punto, más de cinco hashtags.\n\nOjo, esto NO es marca de IA: \"clave\", \"fundamental\", \"además\", \"profundizar\", el \"se\" impersonal, los saludos y despedidas normales, los chilenismos del autor.\n\nDevuélveme primero el texto final, listo para copiar. Debajo, en dos o tres líneas, qué cambiaste.\n\nTexto:\n\n**Implementamos un chatbot en una clínica dental. Esto fue lo que aprendimos.**\n\nResultado: las consultas por WhatsApp que atendía el equipo bajaron un 40%.\n\nPero hay un dato que no aparece en ningún dashboard: **los pacientes mayores siguen prefiriendo llamar.** Y está bien.\n\nLo que nos dejó el proyecto:\n\n**1. El bot funciona mejor con lo repetitivo.**\nHorarios, ubicación, precios de consulta, confirmación de citas, indicaciones post-tratamiento. Eran preguntas que el equipo respondía decenas de veces por semana. Al automatizarlas, la recepción tuvo tiempo para lo que sí requiere criterio y empatía.\n\n**2. No todos los pacientes quieren la misma experiencia.**\nMuchos pacientes mayores no desconfían de la tecnología, simplemente prefieren una voz que les confirme que alguien los escuchó. Para alguien con dolor o nervioso por un procedimiento, eso importa mucho.\n\n**3. Digitalizar no es eliminar canales.**\nNuestro error de partida fue pensar en \"migrar\" pacientes al bot. El enfoque correcto fue **ofrecer una opción más**, no quitar las que ya funcionaban.\n\n**4. La salida a un humano tiene que ser fácil.**\nUn bot que atrapa al paciente en un bucle genera más frustración que no tener bot. Hoy, en cualquier momento, el paciente puede escribir \"hablar con alguien\" y pasa a una persona del equipo.\n\n**5. El éxito no es solo el porcentaje.**\nQue bajaran 40% las consultas es una gran métrica, pero lo que más valoramos es que la recepción atiende con más calma y los pacientes eligen el canal con el que se sienten cómodos.\n\nLa tecnología debería adaptarse a las personas, no al revés.\n\n💬 **¿Has implementado automatización en un negocio de salud o servicios? ¿Cómo manejaron a los clientes que prefieren el trato tradicional?**\n\n#Chatbots #SaludDigital #ExperienciaDelPaciente #Automatización #TransformaciónDigital #ClínicaDental"
+---
+
+Implementamos un chatbot en una clínica dental. Esto fue lo que aprendimos.
+
+Las consultas por WhatsApp que atendía el equipo bajaron un 40%.
+
+Pero hay un dato que no aparece en ningún panel de datos: los pacientes mayores siguen prefiriendo llamar.
+
+Lo que aprendimos del proyecto:
+
+1. El bot funciona mejor con lo repetitivo.
+
+Horarios, ubicación, precios de consulta, confirmación de citas, indicaciones después del tratamiento. Eran preguntas que el equipo respondía decenas de veces por semana. Al automatizarlas, la recepción tuvo tiempo para lo que requiere criterio y empatía.
+
+2. Cada paciente tiene sus preferencias.
+
+Muchos pacientes mayores prefieren una voz que les confirme que alguien los escuchó, sin que eso signifique que desconfían de la tecnología. Para alguien con dolor o nervioso por un procedimiento, eso importa mucho.
+
+3. Digitalizar también implica mantener los canales que funcionan.
+
+Nuestro error de partida fue pensar en “migrar” pacientes al bot. Aprendimos que debíamos ofrecer una opción más y mantener las que ya funcionaban.
+
+4. Pasar del bot a una persona tiene que ser fácil.
+
+Un bot que atrapa al paciente en un bucle genera más frustración que no tener bot. Hoy, en cualquier momento, el paciente puede escribir “hablar con alguien” y pasa a una persona del equipo.
+
+5. También importa cómo se atiende.
+
+La baja del 40% en las consultas por WhatsApp que atendía el equipo es un resultado que valoramos, pero lo que más nos importa es que la recepción atiende con más calma y los pacientes eligen el canal con el que se sienten cómodos.
+
+¿Han implementado automatización en un negocio de salud o servicios? ¿Cómo manejaron a los clientes que prefieren el trato tradicional?
+
+#Chatbots #SaludDigital #ExperienciaDelPaciente #Automatización #ClínicaDental
+
+***
+
+Simplifiqué las frases y los títulos, quité las negritas, el emoji y el cierre general, y dejé cinco hashtags.
+Mantuve los datos, las preferencias de los pacientes y la garantía de poder pasar a una persona en cualquier momento.

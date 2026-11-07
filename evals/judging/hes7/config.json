@@ -1,0 +1,3 @@
+{"seed": 20261109,
+ "arms": {"Pg": "runs/hes7/Pg", "Qg": "runs/hes7/Qg", "Pc": "runs/hes7/Pc", "Qc": "runs/hes7/Qc", "N": "runs/hes6-v13/A2", "C": "runs/hes5/C"},
+ "names": {"Pg": "prompt.md in GPT", "Qg": "plain ask in GPT", "Pc": "prompt.md in Claude", "Qc": "plain ask in Claude", "N": "full skill v1.3 + 2nd", "C": "alvaromieres9"}}

@@ -1,0 +1,11 @@
+---
+prompt: "Haz que este texto suene más humano, que no parezca escrito por una IA:\n\n**Conclusión**\n\nUsar IA para atender clientes en una tienda online sí conviene, siempre que se use donde corresponde. Para las preguntas que se repiten todos los días, como los plazos de despacho, el estado de un pedido, las tallas o los cambios, un asistente automático responde al instante, a cualquier hora y sin perder la paciencia. Eso libera tiempo al equipo y mejora la experiencia de quien solo necesita un dato rápido.\n\nLos reclamos son otro asunto. Un producto que llegó dañado, un cobro duplicado o un pedido que nunca apareció requieren criterio, empatía y capacidad de tomar decisiones, y eso lo da una persona. Un cliente molesto que siente que habla con una máquina que no lo entiende puede irse para siempre. Por eso, la mejor estrategia es que la IA resuelva lo simple y derive rápido a una persona cuando el caso lo amerite.\n\nEn resumen, la IA no reemplaza al equipo de atención, sino que le quita lo repetitivo para que pueda dedicarse a lo que más importa: resolver problemas y cuidar la relación con cada cliente."
+---
+
+**Conclusión**
+
+Sí, vale la pena usar IA para atender clientes en una tienda online, pero hay que saber dónde ponerla. Para las preguntas de siempre (cuándo llega mi pedido, qué talla me conviene, cómo hago un cambio) un asistente automático es ideal: contesta al toque, a cualquier hora y nunca se cansa de repetir lo mismo. Así el equipo se saca de encima lo más rutinario, y el cliente que solo quería un dato rápido lo tiene en segundos.
+
+Con los reclamos la cosa cambia. Si el producto llegó roto, te cobraron dos veces o el pedido simplemente nunca apareció, hace falta que alguien escuche, se ponga en el lugar del otro y pueda tomar decisiones. Un cliente enojado que siente que le habla una máquina sin ganas de entenderlo, probablemente no vuelva a comprar. Por eso lo más sensato es dejar que la IA resuelva lo simple y que pase el caso a una persona apenas se complique.
+
+En el fondo, la IA no viene a reemplazar al equipo de atención. Le saca de encima lo repetitivo para que tenga más tiempo para lo importante: resolver problemas y cuidar la relación con cada cliente.

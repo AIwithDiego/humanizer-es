@@ -1,0 +1,30 @@
+---
+prompt: "Edita el texto que te voy a pegar para que suene a una persona y no a una IA, sin cambiar lo que dice.\n\nReglas:\n1. No inventes nada. Ningún dato, nombre, número, fecha, adorno ni promesa que no esté en el texto. No agregues disculpas ni admisiones que el original no hace.\n2. Haz que cada frase cumpla su función, con lo que el texto ya da a entender: un seguimiento pregunta si alcanzaron a revisar, una invitación invita, un aviso da la fecha.\n3. Borra los elogios que solo dicen que algo es bueno (\"de primera calidad\", \"una experiencia única\"). Deja lo que se comprueba y lo que describe cómo es algo, para qué sirve, a quién cubre o qué se pide (\"crujiente\", \"de grano entero\", \"puntualidad\"), dicho más simple.\n4. El resultado tiene que poder enviarse tal cual. Si una frase vacía no tiene dato detrás, bórrala. Antes de entregar, compara con el original: mismo alcance (\"en la Región Metropolitana\" no es \"en Santiago\"), misma fuerza (\"debemos\" no es \"podemos\") y las mismas garantías al lector.\n5. Si el texto ya suena humano, devuélvelo igual y dímelo.\n6. Español neutro que se lea bien en Chile: tú y ustedes, nada de vosotros ni voseo, nada de España (ordenador, móvil, vale, coste). Si el texto viene en español de España, pásalo a esta variante, salvo que quien escribe sea de allá. En textos informales, escribe como se escribe en Chile (\"te mandé\", \"¿alcanzaste a revisarla?\", \"me avisas\"), sin caricatura.\n\nQuita estas marcas de IA:\n- \"No es solo X, es Y\", \"no se trata de X, sino de Y\", \"Sin X. Sin Y. Solo Z.\"\n- Cierres de una línea: \"Piénsalo.\", \"Así de simple.\", \"Y eso lo cambia todo.\"\n- Preguntas que se responden solas: \"¿El resultado? …\"\n- Bisagras vacías: \"cabe destacar que\", \"es importante mencionar que\", \"sin lugar a dudas\", \"por último, pero no menos importante\".\n- Aperturas de época: \"en el mundo actual\", \"en la era digital\", \"en el panorama actual\".\n- Importancia inflada: \"marca un antes y un después\", \"juega un papel clave\", \"cambia las reglas del juego\".\n- Palabras de IA: sumérgete, adéntrate, desbloquea tu potencial, eleva, potencia, fascinante, vibrante, integral, sinergia, brindar, un testimonio de.\n- Listas de tres por regla y rangos falsos (\"desde principiantes hasta expertos\").\n- Gerundios colgados al final: \"…, garantizando / permitiendo / logrando…\".\n- Guion de servicio al cliente: \"entiendo perfectamente tu preocupación\", \"estamos trabajando arduamente\", \"lamentamos los inconvenientes\".\n- Relleno de cortesía: \"espero que este correo te encuentre bien\", \"quería tomarme un momento\", \"no dudes en contactarme\".\n- Cebo de redes: \"¿Qué opinas? ¡Te leo en los comentarios! 👇\", \"me complace anunciar\".\n- Calcos del inglés: hacer sentido, tomar acción, al final del día, en adición a, de acuerdo a, eventualmente (por \"finalmente\"), aplicar a un cargo (es \"postular\"), \"fue realizado por\" (usa \"se hizo\" o \"hicimos\").\n- Mayúsculas a la inglesa en títulos: \"Cómo Usar La IA\" → \"Cómo usar la IA\".\n- Rayas (— y –): ninguna.\n- Emojis como viñetas, negritas en cada punto, más de cinco hashtags.\n\nOjo, esto NO es marca de IA: \"clave\", \"fundamental\", \"además\", \"profundizar\", el \"se\" impersonal, los saludos y despedidas normales, los chilenismos del autor.\n\nDevuélveme primero el texto final, listo para copiar. Debajo, en dos o tres líneas, qué cambiaste.\n\nTexto:\n\n**Asunto:** Novedades del mes: yoga, nuevas máquinas de cardio y horarios de diciembre\n\nHola, [Nombre del socio]:\n\n¡Esperamos que estés teniendo un gran mes! Te contamos las novedades en [Nombre del gimnasio]:\n\n**🧘 Nuevas clases de yoga**\nDesde ahora tenemos yoga **los martes y jueves a las 7:00 a. m.** Es una forma ideal de empezar el día con más energía, mejorar tu flexibilidad y reducir el estrés. Las clases son para todos los niveles, así que no necesitas experiencia previa. Solo trae tu mat o pídenos uno en recepción.\n\n**🏃 Renovamos las máquinas de cardio**\nCambiamos nuestras máquinas de cardio para que entrenes con mejor tecnología y más comodidad. Pásate a probarlas y, si tienes dudas sobre cómo usarlas, nuestro equipo estará encantado de ayudarte.\n\n**📅 Horarios en diciembre**\nTen en cuenta que el gimnasio permanecerá **cerrado el 25 de diciembre y el 1 de enero**. El resto de los días mantendremos el horario habitual.\n\n¡Gracias por ser parte de nuestra comunidad! Si tienes preguntas o sugerencias, escríbenos o acércate a recepción.\n\nNos vemos en el gimnasio,\n\n**[Tu nombre]**\n[Nombre del gimnasio]\n[Teléfono / Email / Redes sociales]"
+---
+
+**Asunto:** Novedades del mes: yoga, nuevas máquinas de cardio y horarios de diciembre
+
+Hola, [Nombre del socio]:
+
+Te contamos las novedades de [Nombre del gimnasio].
+
+Nuevas clases de yoga
+Desde ahora tenemos yoga los martes y jueves a las 7:00 a. m. Sirve para mejorar la flexibilidad y bajar el estrés. Las clases son para todos los niveles, así que no necesitas experiencia previa. Trae tu mat o pídenos uno en recepción.
+
+Renovamos las máquinas de cardio
+Cambiamos las máquinas de cardio por otras con mejor tecnología y más comodidad. Pásate a probarlas y, si tienes dudas sobre cómo usarlas, el equipo te ayuda.
+
+Horarios en diciembre
+El gimnasio estará cerrado el 25 de diciembre y el 1 de enero. El resto de los días mantendremos el horario habitual.
+
+Gracias por entrenar con nosotros. Si tienes preguntas o sugerencias, escríbenos o acércate a recepción.
+
+Nos vemos en el gimnasio,
+
+[Tu nombre]
+[Nombre del gimnasio]
+[Teléfono / Email / Redes sociales]
+
+---
+
+Cambios: saqué los emojis y las negritas, el saludo de relleno ("Esperamos que estés teniendo un gran mes") y los elogios ("ideal", "encantado de ayudarte"). Dejé dos beneficios del yoga en vez de tres, sin "energía", y cambié "comunidad" por "entrenar con nosotros". Todos los datos, horarios, fechas y ofertas (mat en recepción, ayuda con las máquinas) quedan igual.
