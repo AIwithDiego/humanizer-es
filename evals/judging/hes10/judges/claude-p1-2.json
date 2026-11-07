@@ -1,0 +1,733 @@
+{
+ "18": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 7,
+    "useful": 7
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V1",
+   "V5",
+   "V4",
+   "V6",
+   "V3"
+  ],
+  "note": "V2 wins: natural Chilean email ('todavía no vemos el pago reflejado'), all facts kept; V1 close but softens urgency. V3 switches to usted, stiffer. V4/V6 near-copies of the template; V6 drops the closing offer."
+ },
+ "19": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V6",
+   "V4",
+   "V3",
+   "V5",
+   "V2"
+  ],
+  "note": "V1 keeps everything with light cleanup. V4 sounds most Chilean ('ojalá', 'mensajito') but adds a joke not in the original. V3 adds 'atender con cariño/trabajar bien en equipo'. V2 drops 'foco en el buen café', 'buen café' and the benefits placeholder; V5 drops the focus line and duties in Sobre el cargo."
+ },
+ "20": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V4",
+   "V6",
+   "V2",
+   "V5",
+   "V3"
+  ],
+  "note": "V1 is a light natural tidy with all facts. V2 is unchanged. V4 compact prose, fine. V3 invents 'ambiente tranquilo', 'equipo chico' and softens the specialty-coffee requirement ('ganas de aprender también nos interesa'), plus awkward 'Qué haríamos juntos'."
+ },
+ "21": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 7
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V1",
+   "V2",
+   "V5",
+   "V4",
+   "V6",
+   "V3"
+  ],
+  "note": "V1 reads like a real teacher, keeps all facts (slight additions like 'enfoque que admiro'). V2 solid trim. V3 drops the adapt placeholder and is choppy. V5 drops the 'comprometida, flexible' self-description. V6 rewrites heavily: drops 'avance medible', greeting mismatch (Estimado/a + Les escribo)."
+ },
+ "22": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 6,
+    "useful": 7
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V6",
+   "V1",
+   "V2",
+   "V5",
+   "V4"
+  ],
+  "note": "V3 cleanest and faithful. V6 natural but adds 'equivocarse sin miedo'. V5 opener 'Postulo al puesto' abrupt. V4 sounds Spain ('Me haría mucha ilusión', 'Un cordial saludo') and adds 'desde el primer día', 'aunque se equivoque', 'no solo completar ejercicios' (not-X-but-Y)."
+ },
+ "23": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V4",
+   "V5",
+   "V2",
+   "V6",
+   "V3"
+  ],
+  "note": "V1 and V4 strip the emoji/bold template and keep facts (V1 drops the dispatch placeholder). V3 is close to the AI template. V2 natural but drops bosque valdiviano, scientific name and 'cuida las abejas'. V6 most lively but invents 'en verano se llena de flores blancas'."
+ },
+ "24": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V6",
+   "V2",
+   "V3",
+   "V1",
+   "V4",
+   "V5"
+  ],
+  "note": "V6 natural and complete. V2 good, keeps dash in title. V1/V4 drop 'sabor y aroma característicos'. V5 invents 'suave pero con carácter', 'con mantequilla' and a warm-water instruction not in the original, plus bold labels."
+ },
+ "25": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 6
+   }
+  },
+  "rank": [
+   "V3",
+   "V1",
+   "V5",
+   "V2",
+   "V6",
+   "V4"
+  ],
+  "note": "V3 clean and faithful. V1 most natural but drops the subtropical-origin point and adds 'cuando anuncien heladas'. V5 keeps 'La buena noticia es'. V6 very Chilean ('gustazo') but has a typo 'hecho ppercha' that blocks publishing. V4 stiff opener."
+ },
+ "26": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V4",
+   "V2",
+   "V1",
+   "V6",
+   "V5",
+   "V3"
+  ],
+  "note": "V4 natural ('la cosa se complica') and complete. V1 nearly unchanged. V5 drops 'con paciencia'. V3 adds 'en primavera', shifts to 'cómo lo cuido' and drops the post framing."
+ },
+ "27": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 6,
+    "useful": 8
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V1",
+   "V6",
+   "V5",
+   "V4",
+   "V2",
+   "V3"
+  ],
+  "note": "V1 removes the 'no reemplaza, sino' closer and keeps all facts. V6 tidy. V5 most Chilean ('al toque') but keeps 'no viene a reemplazar'. V3 keeps the not-X-Y closer split in two. V2 rewrites and adds 'sin obligar al cliente a contar todo de nuevo', drops 'a cualquier hora'."
+ },
+ "28": {
+  "scores": {
+   "V1": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V2": {
+    "human": 6,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V4": {
+    "human": 9,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V5",
+   "V4",
+   "V6",
+   "V2",
+   "V1",
+   "V3"
+  ],
+  "note": "V5 natural and faithful. V4 most Chilean ('al tiro', 'sin dar mil vueltas') but inflates to 'gran ayuda'. V1 and V3 are unchanged and keep 'La clave está en'. V2 stiff."
+ },
+ "29": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V3",
+   "V5",
+   "V6",
+   "V1",
+   "V2",
+   "V4"
+  ],
+  "note": "V3 sounds like a real boss message. V5/V6 light cleanup (V6 drops 'Vamos por más'). V1 uses 'no se logra por casualidad, se logra porque' pattern. V2 flattens and drops 'equipazo'. V4 unchanged. None mention team of 5 (nor does original)."
+ },
+ "30": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 6,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   }
+  },
+  "rank": [
+   "V6",
+   "V3",
+   "V1",
+   "V2",
+   "V4",
+   "V5"
+  ],
+  "note": "V6 most natural. V3/V1 light trims. V2 adds 'no fue casualidad: fue' pattern and drops 'felicitaciones'. V4/V5 unchanged."
+ },
+ "31": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 7,
+    "faithful": 6,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 7,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V2",
+   "V3",
+   "V1",
+   "V6",
+   "V4",
+   "V5"
+  ],
+  "note": "Human original: V2 only fixes typos, best. V3 same plus bold labels. V1 drops 'pueden estar seguros que probarán algo bueno'. V6 drops the version labels and short version. V4 changes 'comida' to 'verduras' and the short version. V5 rewrites heavily, drops the Vega trend, the short version and adds 'compartir el dato'."
+ },
+ "32": {
+  "scores": {
+   "V1": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V3": {
+    "human": 6,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 8,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V1",
+   "V2",
+   "V4",
+   "V5",
+   "V6",
+   "V3"
+  ],
+  "note": "Human original: V1 smooths it naturally, all duties kept. V2/V4 near-unchanged. V5/V6 drop 'excelente calidad'. V3 turns it into a template with bold labels and adds a call to action. None has the salary (original lacks it too)."
+ },
+ "33": {
+  "scores": {
+   "V1": {
+    "human": 7,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V2": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 8
+   },
+   "V3": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   },
+   "V5": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V6": {
+    "human": 8,
+    "faithful": 10,
+    "useful": 8
+   }
+  },
+  "rank": [
+   "V3",
+   "V4",
+   "V6",
+   "V2",
+   "V1",
+   "V5"
+  ],
+  "note": "Human news: V3 light edits, best. V4/V6 add commas only. V2 natural Chilean but adds 'plata' register. V1 drops 'regalón' and flattens. V5 states shops started 'antes de la pandemia', a slight shift."
+ },
+ "34": {
+  "scores": {
+   "V1": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V2": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V3": {
+    "human": 7,
+    "faithful": 8,
+    "useful": 8
+   },
+   "V4": {
+    "human": 8,
+    "faithful": 9,
+    "useful": 9
+   },
+   "V5": {
+    "human": 9,
+    "faithful": 10,
+    "useful": 9
+   },
+   "V6": {
+    "human": 7,
+    "faithful": 5,
+    "useful": 7
+   }
+  },
+  "rank": [
+   "V2",
+   "V5",
+   "V1",
+   "V4",
+   "V3",
+   "V6"
+  ],
+  "note": "Human original (Spain register): V2/V5 untouched, best. V1 only respells tique. V4 swaps to ticket/terminal de pago. V3 adds 'no ha desaparecido, se ha cambiado' pattern. V6 changes the ending: invents 'salgo más o menos a la misma hora' and drops 'prefiero que esté aquí'."
+ }
+}

@@ -1,0 +1,3 @@
+{"seed": 20261110,
+ "arms": {"P2g": "runs/hes10/Pg", "P2c": "runs/hes10/Pc", "Pg": "runs/hes7/Pg", "Pc": "runs/hes7/Pc", "Qg": "runs/hes7/Qg", "Qc": "runs/hes7/Qc"},
+ "names": {"P2g": "prompt v2 in GPT", "P2c": "prompt v2 in Claude", "Pg": "prompt v1 in GPT", "Pc": "prompt v1 in Claude", "Qg": "plain ask in GPT", "Qc": "plain ask in Claude"}}

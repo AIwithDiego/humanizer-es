@@ -1,0 +1,1 @@
+Gracias por tu reseña. Nos alegra que te gustara la comida. Lamentamos que esperaras 50 minutos y que no te avisáramos del retraso. Ese sábado nos faltó un cocinero, pero igual debimos informarte para que pudieras decidir. Te pedimos disculpas, y gracias por habérnoslo dicho.

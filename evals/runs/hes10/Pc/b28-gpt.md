@@ -1,0 +1,1 @@
+La IA sirve para atender una tienda online: responde rápido las preguntas frecuentes sobre despachos o tallas y le deja más tiempo al equipo. Con un reclamo es distinto, ahí hace falta una persona que escuche, entienda el problema y se haga cargo de la solución. Lo repetitivo conviene automatizarlo, y el cliente tiene que poder llegar fácil a una persona cuando la necesite.
