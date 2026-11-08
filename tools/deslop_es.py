@@ -91,7 +91,7 @@ ESTRUCTURAS = [
     (rx(r"¿\s*(por\s+qué|cómo|qué\s+significa\s+esto)\s*\?(?=\s+\S)"), "pregunta que se responde sola: ¿Por qué?"),
     (re.compile(r"(?:^|(?<=[.!?\n]))\s*" + CLOSERS + r"[.!]\s*(?=$|\n)", re.M), "cierre de una línea: Piénsalo."),
     (rx(NW + r"(la\s+buena\s+noticia\s+es\s+que|esto\s+(es|fue)\s+lo\s+que\s+(aprend|descubr)\w*|me\s+quedo\s+con\s+esto\s*:|lo\s+que\s+(nos|me)\s+dejó[^.:\n]{0,30}:)"), "revelación anunciada: la buena noticia es que…"),
-    (rx(r",\s+" + GER + EW + r"[^.!?\n]{0,120}[.!?]?\s*$"), "gerundio colgado al final: …, garantizando"),
+    (rx(r",\s+" + GER + EW + r"[^.!?\n]{0,120}(?:[.!?](?=\s|$)|$)"), "gerundio colgado al final: …, garantizando"),
 ]
 
 # ── redes ───────────────────────────────────────────────────────────────────

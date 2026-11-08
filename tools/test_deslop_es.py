@@ -25,6 +25,7 @@ CASES = [
     ("estructuras", "¿El resultado? Ventas que suben.", "¿El pedido llegó bien? Avísame."),
     ("estructuras", "Ordena tus finanzas.\nPiénsalo.", "Piénsalo con calma y me avisas el lunes."),
     ("estructuras", "Renovamos la bodega, garantizando entregas más rápidas.", "Estamos garantizando el stock hasta el viernes."),
+    ("estructuras", "Preparamos pan, garantizando frescura. Te esperamos en Ñuñoa.", "Estamos garantizando el stock hasta el viernes."),
     ("estructuras", "Lanzamos el portal, permitiendo que más pymes vendan en línea.", "El portal permite que más pymes vendan en línea."),
     # muletillas
     ("muletillas", "Cabe destacar que el plazo vence el lunes.", "El plazo vence el lunes."),
