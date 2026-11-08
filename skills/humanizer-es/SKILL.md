@@ -3,7 +3,7 @@ name: humanizer-es
 description: Reescribe texto en español que suena a IA para que suene a quien lo escribe, sin cambiar lo que dice. Úsalo al editar o revisar correos, posts de LinkedIn, captions de Instagram, artículos, mensajes a clientes o cualquier texto en español con marcas de IA ("no es solo X, es Y", "cabe destacar", "en el mundo actual", rayas por todas partes, tríadas forzadas, calcos del inglés, gerundios encadenados, Title Case).
 license: MIT
 metadata:
-  version: "1.4.0"
+  version: "1.4.1"
 ---
 
 # humanizer-es: quitarle la IA al español

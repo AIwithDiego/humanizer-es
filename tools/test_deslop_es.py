@@ -77,6 +77,31 @@ DEMO = ("En el mundo actual, la IA no es solo una herramienta, es una revolució
         "fascinante viaje: cabe destacar que potenciar tu negocio nunca fue tan crucial. ¿El resultado? "
         "Eficiencia, innovación y crecimiento. Piénsalo.")
 
+# everyday Spanish from other countries: must score clean (issue #4).
+# Spain lines leave out vosotros, coste, móvil and the like, which the checker flags on purpose.
+VARIANTS = [
+    ("México", "¿Me lo mandas ahorita? Ando en la oficina hasta las seis."),
+    ("México", "Órale, nos vemos el jueves en la taquería de siempre."),
+    ("México", "Le encargo la factura con mi RFC, por favor."),
+    ("México", "Qué padre quedó el logo, nomás cámbiale el color del fondo."),
+    ("México", "Ya quedó el pedido, se lo llevamos mañana temprano."),
+    ("Argentina", "¿Vos podés pasar a buscar el pedido el lunes? Te lo dejo en la puerta."),
+    ("Argentina", "Che, el presupuesto te lo mando a la tarde, quedate tranquilo."),
+    ("Argentina", "Dale, arrancamos con la remera negra y después vemos."),
+    ("Argentina", "Si querés, te paso el CBU para la transferencia."),
+    ("Argentina", "Abrimos de lunes a sábado, los domingos está cerrado."),
+    ("España", "Vale, quedamos el martes a las cinco en la cafetería."),
+    ("España", "Te paso el presupuesto mañana por la mañana, que hoy no me da tiempo."),
+    ("España", "El piso está muy bien, pero la cocina es pequeña."),
+    ("España", "Mola mucho el diseño nuevo de la web."),
+    ("España", "¿Te viene bien que te llame a mediodía?"),
+    ("Colombia", "Qué pena con usted, ya le reenvío la factura."),
+    ("Colombia", "Listo, parce, nos vemos el viernes en el centro comercial."),
+    ("Colombia", "El pedido le llega mañana, sumercé, a más tardar al mediodía."),
+    ("Colombia", "Me regala su número de cédula para hacer la factura, por favor."),
+    ("Colombia", "Quedó chévere la vitrina, muchas gracias por la ayuda."),
+]
+
 fails = []
 for cat, bad, good in CASES:
     if not audit(bad)[cat]:
@@ -84,6 +109,10 @@ for cat, bad, good in CASES:
     hit = {k: v for k, v in audit(good).items() if v and k != "notas"}
     if hit:
         fails.append(f"FALSE ALARM {hit} on {good!r}")
+for country, line in VARIANTS:
+    hit = {k: v for k, v in audit(line).items() if v and k != "notas"}
+    if hit:
+        fails.append(f"FALSE ALARM ({country}) {hit} on {line!r}")
 
 # the 6 Nov paragraph SlopMonster scored 5/5 clean
 if score(audit(DEMO)) > 2:
@@ -100,5 +129,5 @@ if audit("¿Viste el link https://ejemplo.cl/?q=1 que te mandé?")["notas"]:
 if score(audit("---\nfacts: \"a — b\"\n---\nHola, nos vemos el lunes.")) != 5:
     fails.append("front matter was scanned")
 
-print("\n".join(fails) if fails else f"all {len(CASES) * 2 + 5} checks pass")
+print("\n".join(fails) if fails else f"all {len(CASES) * 2 + len(VARIANTS) + 5} checks pass")
 sys.exit(1 if fails else 0)

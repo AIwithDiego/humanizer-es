@@ -72,9 +72,9 @@ Cómo empezar:
 
 ## Cómo lo probamos
 
-<p align="center"><img src="docs/how-we-tested-es.png" alt="Cómo lo probamos, en seis pasos: 30 encargos en 15 géneros; 60 textos de IA, uno de GPT y uno de Claude por encargo, más 8 textos que escribieron personas antes de ChatGPT; 2 sets, uno de desarrollo para ajustar y uno bloqueado, abierto una vez; 6 versiones por texto, cada humanizador tal como se publica; 3 perfiles de juez, cada uno como juez Claude y juez GPT, con etiquetas mezcladas; resultado, primera de 6 con 0 datos inventados en 180 evaluaciones. Abajo: 113 pruebas automáticas del revisor en CI, pruebas manuales de Diego con sus propios textos, 9 rondas de prueba con las 3 primeras descartadas." width="760"></p>
+<p align="center"><img src="docs/how-we-tested-es.png" alt="Cómo lo probamos, en seis pasos: 30 encargos en 15 géneros; 60 textos de IA, uno de GPT y uno de Claude por encargo, más 8 textos que escribieron personas antes de ChatGPT; 2 sets, uno de desarrollo para ajustar y uno bloqueado, abierto una vez; 6 versiones por texto, cada humanizador tal como se publica; 3 perfiles de juez, cada uno como juez Claude y juez GPT, con etiquetas mezcladas; resultado, primera de 6 con 0 datos inventados en 180 evaluaciones. Abajo: 137 pruebas automáticas del revisor en CI, pruebas manuales de Diego con sus propios textos, 9 rondas de prueba con las 3 primeras descartadas." width="760"></p>
 
-- **Automático.** El revisor tiene 113 pruebas. CI las corre en cada pull request, junto con una revisión de la estructura del plugin y un escaneo de secretos.
+- **Automático.** El revisor tiene 137 pruebas. CI las corre en cada pull request, junto con una revisión de la estructura del plugin y un escaneo de secretos.
 - **Evaluaciones a ciegas.** 9 rondas. Los jueces nunca saben quién escribió qué, y jueces de dos familias de modelos evalúan cada versión, porque un modelo que juzga solo prefiere su propio estilo.
 - **Manual.** Diego la probó con sus propios textos, fuera de los sets de prueba.
 - **Sin hacernos trampa.** Botamos las tres primeras rondas porque esos textos los habíamos escrito nosotros. El número del titular sale de un set bloqueado que nadie leyó mientras ajustábamos.
@@ -120,8 +120,7 @@ La hice yo, Diego Bauer, con Claude Code. Puse la vara (ganarles a ciegas a los 
 
 ## Qué sigue
 
-- **Lo que el revisor no ve**, encontrado al hacer la demo: [issues abiertos](https://github.com/AIwithDiego/humanizer-es/issues), buenos para un primer aporte.
-- **Más español.** Ejemplos de México, Argentina, España y más, para que el revisor no marque frases normales de cada país.
+- **El revisor, afinado por quienes lo usan.** Los tres primeros issues ya están resueltos, dos por un colaborador externo. Lo que sigue: las marcas que nos reportes y ejemplos de más países (Perú, Venezuela, Uruguay…).
 - **Una nueva ronda a ciegas** con textos nuevos, para evaluar la v1.4 y lo que cambie con tus comentarios.
 
 ## Cuéntanos

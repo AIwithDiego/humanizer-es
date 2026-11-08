@@ -72,9 +72,9 @@ No Claude Code? Paste [`prompt.md`](prompt.md) into ChatGPT or Claude.ai, then y
 
 ## How we tested
 
-<p align="center"><img src="docs/how-we-tested-en.png" alt="How we tested, in six steps: 30 briefs in 15 genres; 60 AI texts, one by GPT and one by Claude per brief, plus 8 texts people wrote before ChatGPT; 2 sets, dev for tuning and locked, opened once; 6 versions per text, each humanizer run as it ships; 3 judge personas, each as a Claude and a GPT judge, labels shuffled; result, first of 6 with 0 invented facts in 180 verdicts. Below: 113 automated checker tests in CI, manual testing by Diego on his own texts, 9 test rounds with the first 3 retired." width="760"></p>
+<p align="center"><img src="docs/how-we-tested-en.png" alt="How we tested, in six steps: 30 briefs in 15 genres; 60 AI texts, one by GPT and one by Claude per brief, plus 8 texts people wrote before ChatGPT; 2 sets, dev for tuning and locked, opened once; 6 versions per text, each humanizer run as it ships; 3 judge personas, each as a Claude and a GPT judge, labels shuffled; result, first of 6 with 0 invented facts in 180 verdicts. Below: 137 automated checker tests in CI, manual testing by Diego on his own texts, 9 test rounds with the first 3 retired." width="760"></p>
 
-- **Automated.** The checker has 113 fixture tests. CI runs them on every pull request, with a plugin structure check and a secret scan.
+- **Automated.** The checker has 137 fixture tests. CI runs them on every pull request, with a plugin structure check and a secret scan.
 - **Blind evals.** 9 rounds. Judges never see who wrote what, and judges from two model families score every version, because a model judging alone favours its own style.
 - **Manual.** Diego tested it on his own texts, outside the test sets.
 - **Honest about the test.** We retired our first three rounds because we had written those texts ourselves. The headline number comes from a locked set nobody read while tuning.
@@ -120,8 +120,7 @@ Built by Diego Bauer with Claude Code. I set the bar (beat the Spanish humanizer
 
 ## What's next
 
-- **Checker misses** found while making the demo: [open issues](https://github.com/AIwithDiego/humanizer-es/issues), good first issues.
-- **More Spanish.** Fixtures from Mexico, Argentina, Spain and beyond, so the checker stops flagging normal local phrasing.
+- **The checker, tuned by readers.** The first three issues are fixed, two of them by an outside contributor. Next: tells you report, and fixtures from more countries (Peru, Venezuela, Uruguay…).
 - **A new blind round** on fresh texts, to judge v1.4 and whatever your feedback changes.
 
 ## Send feedback

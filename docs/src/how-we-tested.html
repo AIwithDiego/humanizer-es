@@ -34,7 +34,7 @@ const T={en:{k:"How we tested",h:"A blind test built so we couldn't fool ourselv
     ["6","versions per text","Ours and four other humanizers, each run as it ships, in its own isolated session."],
     ["3×2","judges","Three personas (editor, business owner, copy editor), each as a Claude and a GPT judge. Labels shuffled per text."],
     ["#1","of 6","With both judge families. 0 invented facts in 180 verdicts.","win"]],
- b:[["Automated","113 checker tests and a leak scan run on every pull request (CI)."],["Manual","Diego tested it on his own real texts, outside the test sets."],["Rounds","9 test rounds. The first 3 were retired: we had written those texts."]]},
+ b:[["Automated","137 checker tests and a leak scan run on every pull request (CI)."],["Manual","Diego tested it on his own real texts, outside the test sets."],["Rounds","9 test rounds. The first 3 were retired: we had written those texts."]]},
  es:{k:"Cómo lo probamos",h:"Una prueba a ciegas hecha para no engañarnos",
  s:[["30","encargos","Pedidos simples en 15 géneros que escribe una pyme chilena: correo a cliente, WhatsApp, caption, aviso de trabajo…"],
     ["60","textos de IA","Cada encargo escrito una vez por GPT y otra por Claude. Más 8 textos que escribieron personas antes de ChatGPT."],
@@ -42,7 +42,7 @@ const T={en:{k:"How we tested",h:"A blind test built so we couldn't fool ourselv
     ["6","versiones por texto","La nuestra y otros cuatro humanizadores, cada uno tal como se publica, en su propia sesión aislada."],
     ["3×2","jueces","Tres perfiles (editora, dueño de pyme, corrector), cada uno como juez Claude y juez GPT. Etiquetas mezcladas por texto."],
     ["#1","de 6","Con las dos familias de jueces. 0 datos inventados en 180 evaluaciones.","win"]],
- b:[["Automático","113 pruebas del revisor y un escaneo de secretos en cada pull request (CI)."],["Manual","Diego la probó con sus propios textos, fuera de los sets de prueba."],["Rondas","9 rondas de prueba. Botamos las 3 primeras: esos textos los habíamos escrito nosotros."]]}}[lang];
+ b:[["Automático","137 pruebas del revisor y un escaneo de secretos en cada pull request (CI)."],["Manual","Diego la probó con sus propios textos, fuera de los sets de prueba."],["Rondas","9 rondas de prueba. Botamos las 3 primeras: esos textos los habíamos escrito nosotros."]]}}[lang];
 k.textContent=T.k; h.textContent=T.h;
 flow.innerHTML=T.s.map(([a,u,d,c],i)=>`<div class="st ${c||""}"><div class="n">0${i+1}</div><div class="big">${a}<small>${u}</small></div><div class="d">${d}</div></div>`).join("");
 bar.innerHTML=T.b.map(([a,d])=>`<div class="b"><b>${a}</b>${d}</div>`).join("");
