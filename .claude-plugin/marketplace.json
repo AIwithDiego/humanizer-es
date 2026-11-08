@@ -1,0 +1,14 @@
+{
+  "name": "humanizer-es",
+  "description": "AIwithDiego's Spanish writing tools for Claude Code.",
+  "owner": {
+    "name": "AIwithDiego"
+  },
+  "plugins": [
+    {
+      "name": "humanizer-es",
+      "source": "./",
+      "description": "Rewrites AI-sounding Spanish so it sounds like the writer, without changing what it says. Neutral Spanish that reads right in Chile."
+    }
+  ]
+}
