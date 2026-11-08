@@ -1,0 +1,23 @@
+name: Checker false alarm or miss
+description: deslop_es.py flagged normal Spanish, or missed an AI tell.
+labels: ["checker"]
+body:
+  - type: textarea
+    id: text
+    attributes:
+      label: The sentence
+      description: The shortest text that shows it.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What happened
+      options: ["False alarm: it flagged normal Spanish", "Miss: it didn't flag an AI tell"]
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Checker output
+      render: text

@@ -1,0 +1,36 @@
+name: A rewrite went wrong
+description: The skill or the prompt changed a fact, missed a tell, or made the text sound worse.
+labels: ["rewrite"]
+body:
+  - type: textarea
+    id: before
+    attributes:
+      label: Original text
+      description: Paste the text you gave it. Remove names, emails and anything private first.
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: What it returned
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong with it
+      description: A fact changed or added, a tell it left, a phrase no one in your country would say...
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where you ran it
+      options: ["Claude Code (skill)", "ChatGPT (prompt.md)", "Claude.ai (prompt.md)", "Other"]
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Your Spanish
+      description: Country or variant, so we know what "sounds natural" means for you.
