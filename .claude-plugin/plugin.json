@@ -1,0 +1,13 @@
+{
+  "name": "humanizer-es",
+  "displayName": "humanizer-es: AI-sounding Spanish, rewritten",
+  "description": "Rewrites AI-sounding Spanish so it sounds like the writer, without changing what it says. Ranked first against four other humanizers in a blind test judged by Claude and GPT.",
+  "version": "1.4.0",
+  "author": {
+    "name": "AIwithDiego"
+  },
+  "homepage": "https://github.com/AIwithDiego/humanizer-es",
+  "repository": "https://github.com/AIwithDiego/humanizer-es",
+  "license": "MIT",
+  "keywords": ["spanish", "espanol", "humanizer", "ai-writing", "writing", "editing", "chile", "latam", "claude-code", "skill"]
+}
