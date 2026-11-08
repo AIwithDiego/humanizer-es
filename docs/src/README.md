@@ -2,15 +2,17 @@
 
 Each image is an HTML page rendered in headless Chromium, so the text in them is real text, not generated pixels.
 
-- `demo.html` draws the before/after animation; `render(t)` sets any moment of it. The after text is the skill's real output (v1.4) for the before text.
+- `demo.html` draws the motion demo (scan, tells burst, facts glide into the rewrite); `render(t)` sets any moment of it. The after text is the skill's real output (v1.4) for the before text.
+- `how-we-tested.html` draws the test pipeline diagram.
 - `results.html` draws the results chart from the locked-set numbers in `evals/README.md`.
-- `social.html` is the 1280×640 card for link previews. It expects the AIwithDiego logo as `logo-a.png`, which isn't in this repo.
+- `social.html` is the 1280×640 card for link previews.
 
 ```bash
 npm i playwright-core
 node shoot.js still "file://$PWD/results.html?lang=en" results-en.png 1440 900 2
-node shoot.js frames "file://$PWD/demo.html?lang=en" frames 15
-ffmpeg -framerate 15 -i frames/f%04d.png -vf "split[a][b];[a]palettegen=max_colors=160:stats_mode=diff[p];[b][p]paletteuse=dither=none:diff_mode=rectangle" demo-en.gif
+node shoot.js still "file://$PWD/how-we-tested.html?lang=en" how-we-tested-en.png 1200 700 2
+node shoot.js frames "file://$PWD/demo.html?lang=en" frames 20
+ffmpeg -framerate 20 -i frames/f%04d.png -vf "scale=960:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=128:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" demo-en.gif
 ```
 
 `shoot.js` looks for Playwright's Chromium in the macOS cache; change `EXE` for your system.
