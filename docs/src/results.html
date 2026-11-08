@@ -1,0 +1,53 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{--bg:#050810;--card:#0b1120;--line:#1a2338;--text:#f3f6fc;--dim:#b5bfd0;--faint:#6b7a90;--accent:#5da9ff;--cyan:#00e5ff;--mag:#ff2dcd;--green:#4ade80}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);width:1440px;font-family:"DM Sans",sans-serif;color:var(--text)}
+.wrap{padding:56px 64px 48px}
+.k{font:700 15px "JetBrains Mono";letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 40px/1.15 "Space Grotesk";margin:12px 0 8px;letter-spacing:-.01em}
+.sub{color:var(--dim);font-size:19px;max-width:1100px;line-height:1.5}
+.grid{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;margin-top:36px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px 30px 24px}
+.ph{font:700 20px "Space Grotesk";margin-bottom:4px}
+.pn{color:var(--faint);font-size:15px;margin-bottom:22px}
+.row{display:grid;grid-template-columns:250px 1fr 64px;align-items:center;gap:14px;height:44px}
+.row.f{grid-template-columns:200px 1fr 48px}
+.name{font-size:17px;color:var(--dim);white-space:nowrap}
+.row.us .name{color:var(--text);font-weight:700}
+.track{height:16px;border-radius:8px;background:#121a2c;position:relative;overflow:hidden}
+.bar{position:absolute;inset:0 auto 0 0;border-radius:8px;background:#2a3550}
+.row.us .bar{background:linear-gradient(90deg,var(--accent),var(--cyan))}
+.f .bar{background:#4a2a48}
+.f.us .bar{background:none}
+.val{font:700 18px "JetBrains Mono";text-align:right;color:var(--dim)}
+.row.us .val{color:var(--cyan)}
+.f.us .val{color:var(--green)}
+.zero{position:absolute;left:0;top:50%;transform:translateY(-50%);font:700 13px "JetBrains Mono";color:var(--green);padding-left:4px;letter-spacing:.06em}
+.foot{margin-top:22px;color:var(--faint);font-size:15px;line-height:1.5}
+.foot b{color:var(--dim);font-weight:500}
+</style></head><body><div class="wrap" id="cap"></div>
+<script>
+const L = {
+ en:{k:"Blind test · 30 texts nobody tuned on",h:"First against four other humanizers, with nothing invented",
+  s:"Three judges (a Chilean editor, a Santiago business owner, a copy editor) ranked six anonymous versions of each text, once as Claude and once as GPT.",
+  p1:"Average rank",n1:"lower is better · Claude and GPT judges combined",p2:"Facts invented or changed",n2:"caught by the judges, out of 180 verdicts",
+  us:"humanizer-es",us2:"humanizer-es + GPT pass",none:"none",
+  f:"<b>Locked test set, opened once</b> after all tuning, 7 Nov 2026 · skill v1.3 · every text, output and verdict is in <b>evals/</b>"},
+ es:{k:"Prueba a ciegas · 30 textos que nunca usamos para ajustar",h:"Primera frente a otros cuatro humanizadores, sin inventar nada",
+  s:"Tres jueces (un editor chileno, el dueño de una pyme de Santiago y un corrector) ordenaron seis versiones anónimas de cada texto, una vez como Claude y otra como GPT.",
+  p1:"Ranking promedio",n1:"más bajo es mejor · jueces Claude y GPT juntos",p2:"Datos inventados o cambiados",n2:"que detectaron los jueces, de 180 evaluaciones",
+  us:"humanizer-es",us2:"humanizer-es + pasada GPT",none:"ninguno",
+  f:"<b>Set bloqueado, abierto una sola vez</b> después de todo el ajuste, 7 nov 2026 · skill v1.3 · cada texto, versión y evaluación está en <b>evals/</b>"}};
+const t = L[new URLSearchParams(location.search).get("lang")||"en"];
+const fmt = v => t===L.es ? v.toFixed(2).replace(".",",") : v.toFixed(2);
+const rank=[[t.us,2.44,1],[t.us2,2.48,1],["blader/humanizer",3.22],["alvaromieres9",3.97],["madebydiego",4.35],["omelyanchuk2593",4.53]];
+const facts=[[t.us,0,1],["omelyanchuk2593",12],["blader/humanizer",14],["alvaromieres9",27],["madebydiego",36]];
+const r = rank.map(([n,v,u])=>`<div class="row ${u?'us':''}"><div class="name">${n}</div><div class="track"><div class="bar" style="width:${(v/6*100).toFixed(1)}%"></div></div><div class="val">${fmt(v)}</div></div>`).join("");
+const f = facts.map(([n,v,u])=>`<div class="row f ${u?'us':''}"><div class="name">${n}</div><div class="track"><div class="bar" style="width:${(v/40*100).toFixed(1)}%"></div>${v===0?`<span class="zero">${t.none.toUpperCase()}</span>`:''}</div><div class="val">${v}</div></div>`).join("");
+document.getElementById("cap").innerHTML=`<div class="k">${t.k}</div><h1>${t.h}</h1><p class="sub">${t.s}</p>
+<div class="grid"><div class="panel"><div class="ph">${t.p1}</div><div class="pn">${t.n1}</div>${r}</div>
+<div class="panel"><div class="ph">${t.p2}</div><div class="pn">${t.n2}</div>${f}</div></div><p class="foot">${t.f}</p>`;
+</script></body></html>
