@@ -18,6 +18,7 @@ CASES = [
     ("formato", "## Nuestros Servicios Profesionales", "## Servicios en la Región Metropolitana"),
     # estructuras
     ("estructuras", "La IA no es solo una herramienta, es una revolución.", "No solo hacemos tortas, sino también kuchenes."),
+    ("estructuras", "En Panadería Doña Rosa no solo horneamos pan, creamos experiencias.", "No solo vino Ana, vino también su hermana."),
     ("estructuras", "No se trata de vender más, se trata de vender mejor.", "No se trata de un error del sistema."),
     ("estructuras", "No es magia. Es método.", "No es necesario que vengas. Te mando el archivo."),
     ("estructuras", "Sin contratos. Sin letra chica. Solo resultados.", "Sin contrato, el arriendo sale más caro."),

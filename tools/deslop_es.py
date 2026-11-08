@@ -83,7 +83,7 @@ MULETILLAS = [
 GER = r"(garantizando|permitiendo|logrando|asegurando|brindando|ofreciendo|impulsando|fomentando|potenciando|consolidando|posicionando|contribuyendo|facilitando|optimizando|maximizando|aportando|transformando)"
 CLOSERS = r"(Piénsalo|Piénsenlo|Así\s+de\s+(simple|fácil|claro|sencillo)|Y\s+eso\s+lo\s+cambia\s+todo|Eso\s+lo\s+cambia\s+todo|Punto|Sin\s+más|Ni\s+más\s+ni\s+menos|Spoiler|Y\s+funciona|Hablemos)"
 ESTRUCTURAS = [
-    (rx(NW + r"no\s+(es|son|era|fue|será)\s+(solo|sólo|simplemente|únicamente|solamente)" + EW + r"[^.!?\n]{1,90}?[,;:]\s*(es|son|era|fue|será)" + EW), "no es solo X, es Y"),
+    (rx(NW + r"no\s+((?:es|son|era|fue|será)\s+)?(solo|sólo|simplemente|únicamente|solamente)" + EW + r"\s+(" + W + r"+)[^.!?\n]{0,90}?[,;:]\s*(?!(?:sino|tambi[eé]n|adem[aá]s)\b)(" + W + r"+)(?![^.!?\n]*\b(?:tambi[eé]n|adem[aá]s)\b)" + EW), "no es solo X, es Y"),
     (rx(NW + r"no\s+se\s+trata\s+(solo\s+|sólo\s+|simplemente\s+)?de" + EW + r"[^.!?\n]{1,90}?(,|;|\.)\s*(se\s+trata\s+de|sino\s+de|sino\s+que|sino|se\s+trata)" + EW), "no se trata de X, sino de Y"),
     (re.compile(NW + r"No\s+(es|son)\s+[^.!?\n]{1,40}\.\s+(Es|Son)" + EW), "No es X. Es Y."),
     (re.compile(NW + r"Sin\s+[^.!?\n]{1,35}\.\s+Sin\s+[^.!?\n]{1,35}\."), "Sin X. Sin Y."),
