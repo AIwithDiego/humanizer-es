@@ -1,0 +1,74 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{--bg:#050810;--card:#0b1120;--line:#1a2338;--text:#f3f6fc;--dim:#b5bfd0;--faint:#6b7a90;--accent:#5da9ff;--cyan:#00e5ff;--mag:#ff2dcd;--magt:#ff6ad9;--green:#4ade80}
+*{box-sizing:border-box;margin:0}
+html,body{background:var(--bg);width:1200px;height:675px;overflow:hidden;font-family:"DM Sans",sans-serif;color:var(--text)}
+.top{position:absolute;left:48px;right:48px;top:30px;display:flex;align-items:center;justify-content:space-between}
+.brand{font:700 26px "Space Grotesk";letter-spacing:-.01em}
+.brand span{color:var(--accent)}
+.hint{font:500 15px "JetBrains Mono";color:var(--faint)}
+.cols{position:absolute;left:48px;right:48px;top:86px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 26px;height:400px;position:relative}
+.lab{display:flex;justify-content:space-between;align-items:center;font:700 13px "JetBrains Mono";letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:16px}
+.score{font:700 15px "JetBrains Mono";letter-spacing:0;padding:5px 10px;border-radius:8px;background:#121a2c;color:var(--dim)}
+.score.bad{color:var(--magt);background:#2a0f26}
+.score.good{color:var(--green);background:#0d2418}
+.txt{font-size:20.5px;line-height:1.55;color:var(--dim)}
+.after .txt{color:var(--text);font-size:23px;line-height:1.6}
+.tell{border-radius:4px;padding:0 2px;margin:0 -2px;transition:none}
+.tell.on{background:rgba(255,45,205,.18);color:#ffd2f3;box-shadow:inset 0 -2px 0 var(--mag)}
+.tell.gone{opacity:.28;text-decoration:line-through;text-decoration-color:var(--mag);background:none;box-shadow:none;color:var(--dim)}
+.chips{position:absolute;left:48px;right:48px;top:510px;display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:500 14.5px "JetBrains Mono";color:var(--magt);border:1px solid #4a1a42;background:#1a0b19;border-radius:999px;padding:6px 12px}
+.facts{position:absolute;left:48px;right:48px;top:510px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.fact{font:500 14.5px "JetBrains Mono";color:var(--green);border:1px solid #1d4a30;background:#0b1d14;border-radius:999px;padding:6px 12px}
+.fact.big{color:var(--text);border-color:var(--accent);background:#0d1a33}
+.line{opacity:0}
+.foot{position:absolute;left:48px;right:48px;bottom:26px;font:500 14px "JetBrains Mono";color:var(--faint);display:flex;justify-content:space-between}
+</style></head><body>
+<div class="top"><div class="brand">humanizer<span>-es</span></div><div class="hint" id="hint"></div></div>
+<div class="cols">
+ <div class="card before"><div class="lab"><span id="lb"></span><span class="score" id="s1">deslop-es ·/5</span></div>
+  <div class="txt" id="src"></div></div>
+ <div class="card after"><div class="lab"><span id="la"></span><span class="score" id="s2">deslop-es ·/5</span></div>
+  <div class="txt" id="out"></div></div>
+</div>
+<div class="chips" id="chips"></div>
+<div class="facts" id="facts"></div>
+<div class="foot"><span id="f1"></span><span>github.com/AIwithDiego/humanizer-es</span></div>
+<script>
+const lang = new URLSearchParams(location.search).get("lang")||"en";
+const T = {
+ en:{lb:"Before · from ChatGPT",la:"After · humanizer-es",hint:"Instagram caption, Chilean bakery",
+  tags:["not X, it's Y","filler hinge","empty praise","dangling gerund","self-answered question","inflated stakes","engagement bait"],
+  facts:["6:00 every morning","marraquetas, hallullas, pan amasado","Av. Irarrázaval 2450, Ñuñoa"],added:"0 facts added",f1:"Real output, skill v1.4"},
+ es:{lb:"Antes · de ChatGPT",la:"Después · humanizer-es",hint:"Caption de Instagram, panadería",
+  tags:["no es X, es Y","bisagra vacía","elogio sin dato","gerundio colgado","pregunta que se responde sola","importancia inflada","cebo de redes"],
+  facts:["6:00 cada mañana","marraquetas, hallullas, pan amasado","Av. Irarrázaval 2450, Ñuñoa"],added:"0 datos agregados",f1:"Salida real, skill v1.4"}}[lang];
+// tells in the order they light up; index into T.tags
+const SRC = [["¡En Panadería Doña Rosa "],["no solo horneamos pan, creamos experiencias",0],["! 🥐✨ "],["Cabe destacar que",1],[" cada mañana, desde las 6:00, preparamos marraquetas, hallullas y pan amasado "],["con ingredientes de primera calidad",2],[", "],["garantizando frescura y sabor en cada bocado",3],[". "],["¿El resultado?",4],[" Un pan que "],["marca un antes y un después",5],[" en tu mesa. Te esperamos en Av. Irarrázaval 2450, Ñuñoa. "],["¡Te leo en los comentarios! 👇",6]];
+const OUT = ["En Panadería Doña Rosa horneamos todas las mañanas desde las 6:00: marraquetas, hallullas y pan amasado. 🥐","Te esperamos en Av. Irarrázaval 2450, Ñuñoa."];
+lb.textContent=T.lb; la.textContent=T.la; hint.textContent=T.hint; f1.textContent=T.f1;
+src.innerHTML = SRC.map(([s,i])=> i===undefined? s : `<span class="tell" data-i="${i}">${s}</span>`).join("");
+out.innerHTML = OUT.map(s=>`<p class="line" style="margin-bottom:18px">${s}</p>`).join("");
+const tells=[...document.querySelectorAll(".tell")], lines=[...document.querySelectorAll(".line")];
+const clamp=x=>Math.max(0,Math.min(1,x));
+window.DURATION = 13.5;
+window.render = function(t){
+  // 1.0-4.85: tells light up one by one
+  tells.forEach((el,k)=>{ const on = 1.0 + k*0.55; el.className = "tell" + (t>=5.4 ? " gone" : t>=on ? " on" : ""); });
+  const n = tells.filter((el,k)=> t>=1.0+k*0.55).length;
+  chips.innerHTML = t<8.6 ? T.tags.slice(0,n).map(s=>`<span class="chip">${s}</span>`).join("") : "";
+  chips.style.opacity = t<8.2 ? 1 : clamp((8.6-t)/0.4);
+  s1.className = "score" + (t>=4.9 ? " bad" : ""); s1.textContent = "deslop-es " + (t>=4.9 ? "2/5" : "·/5");
+  // 6.0-7.6: after lines fade in
+  lines.forEach((el,k)=>{ const a = clamp((t-6.0-k*0.8)/0.5); el.style.opacity=a; el.style.transform=`translateY(${(1-a)*8}px)`; });
+  s2.className = "score" + (t>=7.8 ? " good" : ""); s2.textContent = "deslop-es " + (t>=7.8 ? "5/5" : "·/5");
+  // 8.7-10.5: facts kept
+  const fs = T.facts.map((s,k)=> t>=8.8+k*0.45 ? `<span class="fact">✓ ${s}</span>` : "").join("") + (t>=10.3 ? `<span class="fact big">${T.added}</span>` : "");
+  facts.innerHTML = fs;
+};
+render(+new URLSearchParams(location.search).get("t")||13);
+</script></body></html>
