@@ -6,9 +6,9 @@
 
 Primera frente a otros cuatro humanizadores en una prueba a ciegas evaluada por Claude y por GPT. Los jueces no encontraron ningún dato inventado en 180 evaluaciones.
 
-<sub>Hecha por [AIwithDiego](https://www.aiwithdiego.com). ¿La necesitas para tu equipo? [Hablemos](https://www.aiwithdiego.com).</sub>
+<sub>Un proyecto vivo de [AIwithDiego](https://www.aiwithdiego.com): investigado, construido, probado y mejorando con tus comentarios. ¿La necesitas para tu equipo? [Hablemos](https://www.aiwithdiego.com).</sub>
 
-<p align="center"><img src="docs/demo-es.gif" alt="Un caption de Instagram escrito por ChatGPT con siete marcas de IA destacadas y tachadas, al lado de la versión de humanizer-es, que mantiene la hora, los tres panes y la dirección." width="760"></p>
+<p align="center"><img src="docs/demo-es.gif" alt="Animación: una línea de escaneo marca siete marcas de IA en un caption de Instagram escrito por ChatGPT, las marcas estallan y los cuatro datos (el nombre de la panadería, las 6:00, los tres panes y la dirección) se deslizan al texto reescrito. El puntaje del revisor sube de 2/5 a 5/5." width="760"></p>
 
 ```text
 /plugin marketplace add AIwithDiego/humanizer-es
@@ -17,17 +17,73 @@ Primera frente a otros cuatro humanizadores en una prueba a ciegas evaluada por 
 
 **Funciona en:** Claude Code (skill) · ChatGPT, Claude.ai y cualquier chat ([`prompt.md`](prompt.md)) · cualquier terminal (el revisor)
 
-## Por qué existe
+**En esta página:** [El problema](#el-problema) · [Por qué importa](#por-qué-importa) · [Investigación](#investigación) · [Enfoque](#enfoque) · [Qué incluye](#qué-incluye) · [Cómo lo probamos](#cómo-lo-probamos) · [Resultados](#resultados) · [Qué sigue](#qué-sigue) · [Cuéntanos](#cuéntanos)
 
-El texto de IA en español tiene sus propias marcas: calcos del inglés, gerundios colgados, Mayúsculas De Título, español de España en el correo de una tienda chilena. Los humanizadores en español que probamos arreglaban algunas e inventaban detalles para sonar humanos, como una disculpa que el cliente nunca pidió. Este arregla las marcas y mantiene cada dato.
+## El problema
 
-## Cómo empezar
+Cada vez más español lo redactan ChatGPT y Claude: correos a clientes, captions de Instagram, avisos de trabajo, posts de LinkedIn. Quien lee lo nota rápido. El texto de IA en español tiene sus propias marcas, y casi ninguna es la del inglés:
+
+- **Calcos del inglés:** "es importante destacar que", "en el mundo actual", Mayúsculas En Los Títulos.
+- **Gramática y ritmo:** gerundios colgados ("…, garantizando frescura"), tríadas por todas partes, preguntas que se responden solas.
+- **El español equivocado:** vosotros y giros de España en el correo de una tienda de Santiago.
+- **Teatro:** "no solo X, creamos Y", elogios vacíos, "¡Te leo en los comentarios!".
+
+El arreglo de siempre, "haz que suene más humano", lo empeora. En nuestra prueba, pedírselo así a ChatGPT o a Claude inventó o cambió datos en unas 4 de cada 10 evaluaciones.
+
+## Por qué importa
+
+Un texto que suena a IA cuesta confianza: el cliente se pregunta si alguien leyó su correo. Pero un humanizador que inventa cuesta más. Una versión que agrega una disculpa que el negocio nunca dio, o un "nos encantó la propuesta" que nadie dijo, no se le puede mandar a un cliente. Para una pyme, el dato es el mensaje: la hora, el precio, la dirección.
+
+Por eso la vara fue doble: sonar a persona y no cambiar nada que sea cierto.
+
+## Investigación
+
+Antes de escribir una línea de la skill:
+
+- **Qué existe.** Encontramos cuatro humanizadores en español en GitHub. Congelamos tres, más el de inglés que usábamos antes, tal como estaban publicados, para probarlos de forma justa. ([`evals/contestants/`](evals/contestants/))
+- **Cómo se ve el español de IA.** Partimos de la guía de Wikipedia [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) y del marco de blader/humanizer, y catalogamos las marcas propias del español, ordenadas por fuerza: algunas bastan solas, otras cuentan solo cuando se juntan. ([`skills/humanizer-es/SKILL.md`](skills/humanizer-es/SKILL.md))
+- **Cómo suena una persona.** Juntamos textos que escribieron chilenos antes de que existiera ChatGPT (foros, avisos de trabajo, el "quiénes somos" de una pastelería, noticias locales) como control. Un buen humanizador los deja casi intactos. ([`evals/human-sources.md`](evals/human-sources.md))
+
+## Enfoque
+
+Cuatro reglas guían cada versión:
+
+1. **Primero, decidir quién lo escribió.** Si no aparece ninguna marca de IA, el texto es de una persona: corrige erratas claras y para.
+2. **Arreglar borrando, no adornando.** Se borra la marca. Si queda un hueco, se llena con un dato que ya está en el texto. Si no hay dato, se simplifica.
+3. **Nunca agregar un dato.** Ni nombres, ni números, ni disculpas, ni promesas, ni adornos. Mismo alcance, misma fuerza.
+4. **Español neutro que se lee bien en Chile.** Tú y ustedes; nada de vosotros ni voseo.
+
+## Qué incluye
+
+| | Qué es | Dónde |
+|---|---|---|
+| **La skill** | El flujo completo para Claude Code: marcas por fuerza, borrador, autorrevisión y una segunda pasada opcional con GPT | [`skills/humanizer-es/`](skills/humanizer-es/SKILL.md) |
+| **El prompt para pegar** | Un solo prompt para ChatGPT, Claude.ai o cualquier chat | [`prompt.md`](prompt.md) |
+| **El revisor** | `deslop-es`: revisor de marcas de IA en español con patrones. Gratis, sin internet, puntaje de 1 a 5 | [`tools/deslop_es.py`](tools/deslop_es.py) |
+| **La evidencia** | Cada encargo, texto, versión, prompt de juez y evaluación | [`evals/`](evals/README.md) |
+
+Cómo empezar:
 
 1. En Claude Code, corre las dos líneas de arriba.
 2. Pega un texto en español y pídele a Claude que lo humanice, o escribe `/humanizer-es`.
 3. Copia la versión de arriba. Debajo viene una nota con lo que cambió.
 
 ¿No usas Claude Code? Pega [`prompt.md`](prompt.md) en ChatGPT o Claude.ai y después tu texto, debajo de "Texto:". El revisor: `python3 tools/deslop_es.py --text "tu texto"`.
+
+## Cómo lo probamos
+
+<p align="center"><img src="docs/how-we-tested-es.png" alt="Cómo lo probamos, en seis pasos: 30 encargos en 15 géneros; 60 textos de IA, uno de GPT y uno de Claude por encargo, más 8 textos que escribieron personas antes de ChatGPT; 2 sets, uno de desarrollo para ajustar y uno bloqueado, abierto una vez; 6 versiones por texto, cada humanizador tal como se publica; 3 perfiles de juez, cada uno como juez Claude y juez GPT, con etiquetas mezcladas; resultado, primera de 6 con 0 datos inventados en 180 evaluaciones. Abajo: 113 pruebas automáticas del revisor en CI, pruebas manuales de Diego con sus propios textos, 9 rondas de prueba con las 3 primeras descartadas." width="760"></p>
+
+- **Automático.** El revisor tiene 113 pruebas. CI las corre en cada pull request, junto con una revisión de la estructura del plugin y un escaneo de secretos.
+- **Evaluaciones a ciegas.** 9 rondas. Los jueces nunca saben quién escribió qué, y jueces de dos familias de modelos evalúan cada versión, porque un modelo que juzga solo prefiere su propio estilo.
+- **Manual.** Diego la probó con sus propios textos, fuera de los sets de prueba.
+- **Sin hacernos trampa.** Botamos las tres primeras rondas porque esos textos los habíamos escrito nosotros. El número del titular sale de un set bloqueado que nadie leyó mientras ajustábamos.
+
+## Resultados
+
+<p align="center"><img src="docs/results-es.png" alt="Ranking promedio, más bajo es mejor: humanizer-es 2,44; humanizer-es con pasada GPT 2,48; blader/humanizer 3,22; alvaromieres9 3,97; madebydiego 4,35; omelyanchuk2593 4,53. Datos inventados o cambiados, de 180 evaluaciones: humanizer-es 0, omelyanchuk2593 12, blader 14, alvaromieres9 27, madebydiego 36." width="760"></p>
+
+30 textos escritos por IA y 4 escritos por personas, ninguno usado para ajustar; cada humanizador corrió tal como se publica. Se probó la v1.3; la v1.4 solo agrega la corrección de erratas en textos de personas, revisada en el set de desarrollo y sin nueva evaluación. El prompt para pegar le gana a pedir "haz que suene más humano" por unos dos puestos. Todo, evaluación por evaluación: [`evals/`](evals/README.md) (en inglés).
 
 ## Lo que no hace
 
@@ -37,12 +93,6 @@ El texto de IA en español tiene sus propias marcas: calcos del inglés, gerundi
 - Enviar tu texto a otro modelo sin preguntarte.
 
 Por favor, no la uses para esconder el uso de IA donde hay que declararlo (trabajos de estudio, investigación, periodismo).
-
-## Resultados
-
-<p align="center"><img src="docs/results-es.png" alt="Ranking promedio, más bajo es mejor: humanizer-es 2,44; humanizer-es con pasada GPT 2,48; blader/humanizer 3,22; alvaromieres9 3,97; madebydiego 4,35; omelyanchuk2593 4,53. Datos inventados o cambiados, de 180 evaluaciones: humanizer-es 0, omelyanchuk2593 12, blader 14, alvaromieres9 27, madebydiego 36." width="760"></p>
-
-30 textos escritos por IA y 4 escritos por personas, ninguno usado para ajustar; cada humanizador corrió tal como se publica. Se probó la v1.3; la v1.4 solo agrega la corrección de erratas en textos de personas, revisada en el set de desarrollo y sin nueva evaluación. El prompt para pegar le gana a pedir "haz que suene más humano" por unos dos puestos. Todo, evaluación por evaluación: [`evals/`](evals/README.md) (en inglés).
 
 ---
 
@@ -68,9 +118,21 @@ La hice yo, Diego Bauer, con Claude Code. Puse la vara (ganarles a ciegas a los 
 - **Dejar intacto el texto de una persona no basta.** Los jueces pusieron primero a otro humanizador en los textos humanos porque corregía erratas. La v1.4 corrige erratas claras y nada más.
 - **Botamos nuestras tres primeras rondas de prueba** porque los textos los habíamos escrito nosotros. Desde entonces la prueba usa encargos reales, textos de GPT y de Claude, y textos que escribieron personas antes de ChatGPT.
 
-## Contribuir
+## Qué sigue
 
-Los issues y pull requests son bienvenidos, sobre todo falsas alarmas del revisor con español normal de tu país. Ver [CONTRIBUTING.md](CONTRIBUTING.md). Problemas de seguridad: [SECURITY.md](SECURITY.md).
+- **Lo que el revisor no ve**, encontrado al hacer la demo: [issues abiertos](https://github.com/AIwithDiego/humanizer-es/issues), buenos para un primer aporte.
+- **Más español.** Ejemplos de México, Argentina, España y más, para que el revisor no marque frases normales de cada país.
+- **Una nueva ronda a ciegas** con textos nuevos, para evaluar la v1.4 y lo que cambie con tus comentarios.
+
+## Cuéntanos
+
+Este es un proyecto vivo. Cada aviso de que una versión cambió un dato, dejó una marca o sonó raro alimenta la próxima versión.
+
+- **Una versión salió mal:** [abre un issue](https://github.com/AIwithDiego/humanizer-es/issues/new?template=rewrite.yml) (cambia nombres y números reales por otros inventados).
+- **Una idea o un comentario rápido:** [déjanos tu comentario](https://github.com/AIwithDiego/humanizer-es/issues/new?template=feedback.yml).
+- **¿Prefieres no usar GitHub?** Escríbeme por Instagram a [@ai_with_diego](https://www.instagram.com/ai_with_diego/) o a diego@aiwithdiego.com.
+
+Los pull requests también son bienvenidos, sobre todo falsas alarmas del revisor con español normal de tu país. Ver [CONTRIBUTING.md](CONTRIBUTING.md). Problemas de seguridad: [SECURITY.md](SECURITY.md).
 
 ## Créditos
 

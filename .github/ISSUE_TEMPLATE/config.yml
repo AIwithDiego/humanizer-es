@@ -3,3 +3,6 @@ contact_links:
   - name: Security issue
     url: https://github.com/AIwithDiego/humanizer-es/security/advisories/new
     about: Please report privately, not in an issue.
+  - name: Rather not use GitHub?
+    url: https://www.instagram.com/ai_with_diego/
+    about: Send a DM on Instagram, or email diego@aiwithdiego.com.

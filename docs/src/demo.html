@@ -2,73 +2,164 @@
 <html><head><meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@500;700&display=swap">
 <style>
-:root{--bg:#050810;--card:#0b1120;--line:#1a2338;--text:#f3f6fc;--dim:#b5bfd0;--faint:#6b7a90;--accent:#5da9ff;--cyan:#00e5ff;--mag:#ff2dcd;--magt:#ff6ad9;--green:#4ade80}
+:root{--bg:#050810;--text:#f3f6fc;--dim:#b5bfd0;--faint:#6b7a90;--accent:#5da9ff;--cyan:#00e5ff;--mag:#ff2dcd;--magt:#ff6ad9;--green:#4ade80}
 *{box-sizing:border-box;margin:0}
 html,body{background:var(--bg);width:1200px;height:675px;overflow:hidden;font-family:"DM Sans",sans-serif;color:var(--text)}
-.top{position:absolute;left:48px;right:48px;top:30px;display:flex;align-items:center;justify-content:space-between}
+#stage{position:absolute;inset:0;overflow:hidden}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(93,169,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(93,169,255,.07) 1px,transparent 1px);background-size:40px 40px;-webkit-mask-image:radial-gradient(ellipse 70% 60% at 50% 45%,#000 20%,transparent 80%)}
+.blob{position:absolute;border-radius:50%;filter:blur(90px)}
+.top{position:absolute;left:64px;right:64px;top:34px;display:flex;align-items:center;justify-content:space-between}
 .brand{font:700 26px "Space Grotesk";letter-spacing:-.01em}
 .brand span{color:var(--accent)}
-.hint{font:500 15px "JetBrains Mono";color:var(--faint)}
-.cols{position:absolute;left:48px;right:48px;top:86px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 26px;height:400px;position:relative}
-.lab{display:flex;justify-content:space-between;align-items:center;font:700 13px "JetBrains Mono";letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:16px}
-.score{font:700 15px "JetBrains Mono";letter-spacing:0;padding:5px 10px;border-radius:8px;background:#121a2c;color:var(--dim)}
-.score.bad{color:var(--magt);background:#2a0f26}
-.score.good{color:var(--green);background:#0d2418}
-.txt{font-size:20.5px;line-height:1.55;color:var(--dim)}
-.after .txt{color:var(--text);font-size:23px;line-height:1.6}
-.tell{border-radius:4px;padding:0 2px;margin:0 -2px;transition:none}
-.tell.on{background:rgba(255,45,205,.18);color:#ffd2f3;box-shadow:inset 0 -2px 0 var(--mag)}
-.tell.gone{opacity:.28;text-decoration:line-through;text-decoration-color:var(--mag);background:none;box-shadow:none;color:var(--dim)}
-.chips{position:absolute;left:48px;right:48px;top:510px;display:flex;flex-wrap:wrap;gap:8px}
-.chip{font:500 14.5px "JetBrains Mono";color:var(--magt);border:1px solid #4a1a42;background:#1a0b19;border-radius:999px;padding:6px 12px}
-.facts{position:absolute;left:48px;right:48px;top:510px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.fact{font:500 14.5px "JetBrains Mono";color:var(--green);border:1px solid #1d4a30;background:#0b1d14;border-radius:999px;padding:6px 12px}
-.fact.big{color:var(--text);border-color:var(--accent);background:#0d1a33}
-.line{opacity:0}
-.foot{position:absolute;left:48px;right:48px;bottom:26px;font:500 14px "JetBrains Mono";color:var(--faint);display:flex;justify-content:space-between}
+.phase{font:500 15px "JetBrains Mono";color:var(--dim);display:flex;align-items:center;gap:10px;position:absolute;left:50%;transform:translateX(-50%)}
+.phase i{width:9px;height:9px;border-radius:50%;display:block}
+.gauge{display:flex;align-items:center;gap:6px;font:700 14px "JetBrains Mono";color:var(--faint)}
+.gauge .lbl{margin-right:6px}
+.seg{width:20px;height:9px;border-radius:3px;background:#162036}
+.gauge .n{margin-left:8px;min-width:34px;font-size:16px}
+#box{position:absolute;left:84px;top:128px;width:1032px;font-size:31px;line-height:1.55}
+.layer{position:absolute;left:0;top:0;width:100%}
+.w{display:inline-block;will-change:transform}
+.fact{white-space:nowrap;visibility:hidden}
+.tell{background-image:linear-gradient(rgba(255,45,205,.24),rgba(255,45,205,.24));background-repeat:no-repeat;background-size:0% 100%;-webkit-box-decoration-break:clone;box-decoration-break:clone;border-radius:5px}
+.gap{display:block;height:14px}
+.clone{position:absolute;white-space:nowrap;border-radius:6px;padding:0 4px;margin-left:-4px}
+#beam{position:absolute;left:-30px;width:1092px;height:2px;background:linear-gradient(90deg,transparent,var(--cyan) 12%,var(--cyan) 88%,transparent);box-shadow:0 0 18px 3px rgba(0,229,255,.55)}
+#trail{position:absolute;left:-30px;width:1092px;height:90px;background:linear-gradient(to bottom,transparent,rgba(0,229,255,.10));-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+#fx{position:absolute;inset:0;pointer-events:none}
+.row{position:absolute;left:64px;right:64px;top:478px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chip{font:500 15px "JetBrains Mono";color:var(--magt);border:1px solid #5a1d50;background:#1a0b19;border-radius:999px;padding:7px 14px;display:inline-block}
+.stats{position:absolute;left:64px;right:64px;top:430px;display:flex;gap:18px;justify-content:center}
+.stat{border:1px solid #1d4a30;background:rgba(11,29,20,.85);border-radius:16px;padding:14px 24px;min-width:230px;text-align:center}
+.stat b{display:block;font:700 40px/1.1 "Space Grotesk";color:var(--green)}
+.stat span{font:500 14px "JetBrains Mono";color:var(--dim)}
+.stat.blue{border-color:#1f3a66;background:rgba(13,26,51,.85)} .stat.blue b{color:var(--accent)}
+.foot{position:absolute;left:64px;right:64px;bottom:28px;font:500 14px "JetBrains Mono";color:var(--faint);display:flex;justify-content:space-between}
+#fade{position:absolute;inset:0;background:var(--bg);pointer-events:none}
 </style></head><body>
-<div class="top"><div class="brand">humanizer<span>-es</span></div><div class="hint" id="hint"></div></div>
-<div class="cols">
- <div class="card before"><div class="lab"><span id="lb"></span><span class="score" id="s1">deslop-es ·/5</span></div>
-  <div class="txt" id="src"></div></div>
- <div class="card after"><div class="lab"><span id="la"></span><span class="score" id="s2">deslop-es ·/5</span></div>
-  <div class="txt" id="out"></div></div>
+<div id="stage">
+ <div class="blob" id="b1" style="width:620px;height:420px;left:640px;top:-200px;background:#5da9ff"></div>
+ <div class="blob" id="b2" style="width:560px;height:380px;left:-200px;top:380px;background:#ff2dcd"></div>
+ <div class="blob" id="b3" style="width:600px;height:400px;left:300px;top:320px;background:#4ade80"></div>
+ <div class="grid"></div>
+ <div class="top"><div class="brand">humanizer<span>-es</span></div>
+  <div class="phase"><i id="pdot"></i><span id="ptxt"></span></div>
+  <div class="gauge"><span class="lbl">deslop-es</span><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><i class="seg"></i><span class="n" id="gn">·/5</span></div></div>
+ <div id="box"><div id="trail"></div><div id="beam"></div><div class="layer" id="L1"></div><div class="layer" id="L2"></div></div>
+ <canvas id="fx" width="1200" height="675"></canvas>
+ <div class="row" id="chips"></div>
+ <div class="stats" id="stats"></div>
+ <div class="foot"><span id="f1"></span><span>github.com/AIwithDiego/humanizer-es</span></div>
+ <div id="fade"></div>
 </div>
-<div class="chips" id="chips"></div>
-<div class="facts" id="facts"></div>
-<div class="foot"><span id="f1"></span><span>github.com/AIwithDiego/humanizer-es</span></div>
 <script>
 const lang = new URLSearchParams(location.search).get("lang")||"en";
 const T = {
- en:{lb:"Before · from ChatGPT",la:"After · humanizer-es",hint:"Instagram caption, Chilean bakery",
-  tags:["not X, it's Y","filler hinge","empty praise","dangling gerund","self-answered question","inflated stakes","engagement bait"],
-  facts:["6:00 every morning","marraquetas, hallullas, pan amasado","Av. Irarrázaval, Ñuñoa"],added:"0 facts added",f1:"Real output, skill v1.4"},
- es:{lb:"Antes · de ChatGPT",la:"Después · humanizer-es",hint:"Caption de Instagram, panadería",
-  tags:["no es X, es Y","bisagra vacía","elogio sin dato","gerundio colgado","pregunta que se responde sola","importancia inflada","cebo de redes"],
-  facts:["6:00 cada mañana","marraquetas, hallullas, pan amasado","Av. Irarrázaval, Ñuñoa"],added:"0 datos agregados",f1:"Salida real, skill v1.4"}}[lang];
-// tells in the order they light up; index into T.tags
-const SRC = [["¡En Panadería Doña Rosa "],["no solo horneamos pan, creamos experiencias",0],["! 🥐✨ "],["Cabe destacar que",1],[" cada mañana, desde las 6:00, preparamos marraquetas, hallullas y pan amasado "],["con ingredientes de primera calidad",2],[", "],["garantizando frescura y sabor en cada bocado",3],[". "],["¿El resultado?",4],[" Un pan que "],["marca un antes y un después",5],[" en tu mesa. Te esperamos en Av. Irarrázaval, Ñuñoa. "],["¡Te leo en los comentarios! 👇",6]];
-const OUT = ["Todas las mañanas, desde las 6:00, en Panadería Doña Rosa preparamos marraquetas, hallullas y pan amasado, para que te lleves el pan fresco. 🥐","Te esperamos en Av. Irarrázaval, Ñuñoa."];
-lb.textContent=T.lb; la.textContent=T.la; hint.textContent=T.hint; f1.textContent=T.f1;
-src.innerHTML = SRC.map(([s,i])=> i===undefined? s : `<span class="tell" data-i="${i}">${s}</span>`).join("");
-out.innerHTML = OUT.map(s=>`<p class="line" style="margin-bottom:18px">${s}</p>`).join("");
-const tells=[...document.querySelectorAll(".tell")], lines=[...document.querySelectorAll(".line")];
-const clamp=x=>Math.max(0,Math.min(1,x));
-window.DURATION = 13.5;
-window.render = function(t){
-  // 1.0-4.85: tells light up one by one
-  tells.forEach((el,k)=>{ const on = 1.0 + k*0.55; el.className = "tell" + (t>=5.4 ? " gone" : t>=on ? " on" : ""); });
-  const n = tells.filter((el,k)=> t>=1.0+k*0.55).length;
-  chips.innerHTML = t<8.6 ? T.tags.slice(0,n).map(s=>`<span class="chip">${s}</span>`).join("") : "";
-  chips.style.opacity = t<8.2 ? 1 : clamp((8.6-t)/0.4);
-  s1.className = "score" + (t>=4.9 ? " bad" : ""); s1.textContent = "deslop-es " + (t>=4.9 ? "2/5" : "·/5");
-  // 6.0-7.6: after lines fade in
-  lines.forEach((el,k)=>{ const a = clamp((t-6.0-k*0.8)/0.5); el.style.opacity=a; el.style.transform=`translateY(${(1-a)*8}px)`; });
-  s2.className = "score" + (t>=7.8 ? " good" : ""); s2.textContent = "deslop-es " + (t>=7.8 ? "5/5" : "·/5");
-  // 8.7-10.5: facts kept
-  const fs = T.facts.map((s,k)=> t>=8.8+k*0.45 ? `<span class="fact">✓ ${s}</span>` : "").join("") + (t>=10.3 ? `<span class="fact big">${T.added}</span>` : "");
-  facts.innerHTML = fs;
+ en:{tags:["not X, it's Y","filler hinge","empty praise","dangling gerund","self-answered question","inflated stakes","engagement bait"],
+  ph:["Written by ChatGPT","Scanning for AI tells","Locking the facts","Rewriting","Done"],
+  st:[[7,"AI tells removed"],[4,"of 4 facts kept"],[0,"facts invented"]],f1:"Real output · skill v1.4"},
+ es:{tags:["no es X, es Y","bisagra vacía","elogio sin dato","gerundio colgado","pregunta que se responde sola","importancia inflada","cebo de redes"],
+  ph:["Escrito por ChatGPT","Buscando marcas de IA","Fijando los datos","Reescribiendo","Listo"],
+  st:[[7,"marcas de IA fuera"],[4,"de 4 datos intactos"],[0,"datos inventados"]],f1:"Salida real · skill v1.4"}}[lang];
+// [text, kind, id]: t = AI tell (index into tags), f = fact that must survive
+const B = [["¡En "],["Panadería Doña Rosa","f",0],[" "],["no solo horneamos pan, creamos experiencias","t",0],["! 🥐✨ "],["Cabe destacar que","t",1],[" cada mañana, desde las "],["6:00","f",1],[", preparamos "],["marraquetas, hallullas y pan amasado","f",2],[" "],["con ingredientes de primera calidad","t",2],[", "],["garantizando frescura y sabor en cada bocado","t",3],[". "],["¿El resultado?","t",4],[" Un pan que "],["marca un antes y un después","t",5],[" en tu mesa. Te esperamos en "],["Av. Irarrázaval, Ñuñoa","f",3],[". "],["¡Te leo en los comentarios! 👇","t",6]];
+// the skill's real output for B
+const A = [["Todas las mañanas, desde las "],["6:00","f",1],[", en "],["Panadería Doña Rosa","f",0],[" preparamos "],["marraquetas, hallullas y pan amasado","f",2],[", para que te lleves el pan fresco. 🥐"],["\n"],["Te esperamos en "],["Av. Irarrázaval, Ñuñoa","f",3],["."]];
+
+function build(el, segs){
+  let h="", wi=0;
+  for (const [s,k,i] of segs){
+    if (s==="\n"){ h+='<span class="gap"></span>'; continue; }
+    if (k==="f"){ h+=`<span class="w fact" data-f="${i}" data-wi="${wi++}">${s}</span>`; continue; }
+    const inner = s.split(/(\s+)/).map(p=> p===""||/^\s+$/.test(p) ? p : `<span class="w" data-wi="${wi++}">${p}</span>`).join("");
+    h += k==="t" ? `<span class="tell" data-t="${i}">${inner}</span>` : inner;
+  }
+  el.innerHTML = h;
+}
+build(L1,B); build(L2,A);
+chips.innerHTML = T.tags.map(s=>`<span class="chip">${s}</span>`).join("");
+stats.innerHTML = T.st.map((s,k)=>`<div class="stat${k===1?" blue":""}"><b>0</b><span>${s[1]}</span></div>`).join("");
+f1.textContent = T.f1;
+
+const clamp=x=>Math.max(0,Math.min(1,x)), lerp=(a,b,p)=>a+(b-a)*p;
+const eo=p=>1-Math.pow(1-p,3), eio=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const back=p=>{const c=1.9;return 1+(c+1)*Math.pow(p-1,3)+c*Math.pow(p-1,2)};
+let M=null;
+function measure(){
+  const bx=box.getBoundingClientRect(), rel=r=>({x:r.left-bx.left,y:r.top-bx.top,w:r.width,h:r.height});
+  const fb=[...L1.querySelectorAll(".fact")].map(e=>[+e.dataset.f,rel(e.getBoundingClientRect()),+e.dataset.wi]);
+  const fa=Object.fromEntries([...L2.querySelectorAll(".fact")].map(e=>[+e.dataset.f,rel(e.getBoundingClientRect())]));
+  const H=L1.getBoundingClientRect().height;
+  const tells=[...L1.querySelectorAll(".tell")].map(e=>{const rs=[...e.getClientRects()].map(rel);return{el:e,i:+e.dataset.t,rs,words:[...e.querySelectorAll(".w")]}});
+  // beam is linear from y=-10 to H+10 over 1.5..3.9s; a tell lights when the beam crosses its first line
+  tells.forEach(o=>{o.lit=1.5+2.4*((o.rs[0].y+o.rs[0].h/2+10)/(H+20)); o.out=5.25+o.i*0.07;});
+  const clones=fb.map(([f,r,wi])=>{const d=document.createElement("div");d.className="clone";d.textContent=L1.querySelector(`.fact[data-f="${f}"]`).textContent;box.appendChild(d);return{f,b:r,a:fa[f],wi,el:d}});
+  // particles: seeded, so every frame of a render is the same
+  let s=7; const rnd=()=>(s=(s*16807)%2147483647)/2147483647;
+  const parts=[]; tells.forEach(o=>o.rs.forEach(r=>{for(let k=0;k<Math.round(r.w/9);k++)parts.push({t0:o.out+rnd()*0.15,x:bx.left+r.x+rnd()*r.w,y:bx.top+r.y+r.h*(0.25+rnd()*0.5),vx:(rnd()-.5)*260,vy:-60-rnd()*220,s:2+rnd()*3,c:rnd()<.6?"255,45,205":"255,150,235"})}));
+  M={tells,clones,parts,words1:[...L1.querySelectorAll(".w:not(.fact)")],words2:[...L2.querySelectorAll(".w:not(.fact)")],H};
+}
+const cx=fx.getContext("2d"), segs=[...document.querySelectorAll(".seg")], chipEls=[...chips.children], statEls=[...stats.children];
+window.DURATION=12;
+window.render=function(t){
+  if(!M) measure();
+  // background mood: magenta while the slop is on screen, green once it's clean
+  b1.style.opacity=.09; b2.style.opacity=lerp(.08,.02,clamp((t-6)/1.5)); b3.style.opacity=lerp(0,.06,clamp((t-7)/1.5));
+  // phase label
+  const pt=[0,1.4,4.25,5.2,8.3], pc=["#b5bfd0","#00e5ff","#4ade80","#5da9ff","#4ade80"];
+  let pi=0; pt.forEach((x,k)=>{if(t>=x)pi=k}); const pa=eo(clamp((t-pt[pi])/0.35));
+  ptxt.textContent=T.ph[pi]; ptxt.parentElement.style.opacity=pa; ptxt.parentElement.style.transform=`translateX(-50%) translateY(${(1-pa)*8}px)`;
+  pdot.style.background=pc[pi]; pdot.style.boxShadow=`0 0 ${8+6*Math.sin(t*8)}px ${pc[pi]}`;
+  // before text: rise in, then tells burst and the rest dissolves
+  const tellOf=new Map(); M.tells.forEach(o=>o.words.forEach(w=>tellOf.set(w,o)));
+  M.words1.forEach(w=>{
+    const wi=+w.dataset.wi, a=eo(clamp((t-0.15-wi*0.022)/0.45)), o=tellOf.get(w);
+    const out = o ? eo(clamp((t-o.out)/0.3)) : eo(clamp((t-5.55-wi*0.006)/0.45));
+    w.style.opacity=a*(1-out);
+    w.style.transform=`translateY(${(1-a)*16-out*(o?10:4)}px) scale(${1-out*(o?0.35:0.04)})`;
+    w.style.filter=`blur(${(1-a)*6+out*5}px)`;
+    if(o){const g=clamp((t-o.lit)/0.25); w.style.color=g>0?`rgb(${lerp(243,255,g)},${lerp(246,214,g)},${lerp(252,245,g)})`:"";}
+  });
+  M.tells.forEach(o=>{o.el.style.backgroundSize=`${eo(clamp((t-o.lit)/0.25))*100}% 100%`; o.el.style.opacity=1-clamp((t-o.out)/0.3);});
+  // scan beam
+  const bp=(t-1.5)/2.4, by=-10+(M.H+20)*clamp(bp), bo=clamp((t-1.35)/0.15)*(1-clamp((t-3.9)/0.25));
+  beam.style.top=by+"px"; beam.style.opacity=bo; trail.style.top=(by-90)+"px"; trail.style.opacity=bo;
+  // chips pop as each tell is flagged
+  M.tells.forEach(o=>{const c=chipEls[o.i], p=clamp((t-o.lit-0.05)/0.35), q=clamp((t-8.2)/0.35);
+    c.style.transform=`scale(${p>0?back(p):0}) translateY(${q*10}px)`; c.style.opacity=clamp(p*3)*(1-q);});
+  // score
+  const done=Math.max(...M.tells.map(o=>o.lit))+0.35;
+  segs.forEach((s,k)=>{let on=0,col="";
+    if(t>=done && k<2){on=1;col="#ff2dcd"}
+    if(t>=7.9+k*0.12){on=1;col="#4ade80"}
+    s.style.background=on?col:"#162036"; s.style.boxShadow=on?`0 0 10px ${col}`:"none";});
+  const green=t>=7.9+4*0.12;
+  gn.textContent=green?"5/5":t>=done?"2/5":"·/5"; gn.style.color=green?"#4ade80":t>=done?"#ff6ad9":"";
+  // facts: rise with their words, glow green, then glide into the rewrite
+  M.clones.forEach(c=>{
+    const a=eo(clamp((t-0.15-c.wi*0.022)/0.45)), g=clamp((t-4.35-c.f*0.18)/0.3), m=eio(clamp((t-6.0-c.f*0.12)/1.1));
+    const x=lerp(c.b.x,c.a.x,m), y=lerp(c.b.y,c.a.y,m)-Math.sin(Math.PI*m)*26;
+    const pulse=1+0.035*Math.sin(Math.PI*g);
+    c.el.style.transform=`translate(${x}px,${y+(1-a)*16}px) scale(${pulse})`;
+    c.el.style.opacity=a; c.el.style.filter=`blur(${(1-a)*6}px)`;
+    c.el.style.background=`rgba(74,222,128,${0.15*g})`;
+    c.el.style.boxShadow=`inset 0 -2px 0 rgba(74,222,128,${g}), 0 0 ${24*g*(1-m*0.6)}px rgba(74,222,128,${0.25*g})`;
+    c.el.style.color=g>0?`rgb(${lerp(243,200,g)},${lerp(246,255,g)},${lerp(252,215,g)})`:"";
+  });
+  // after text writes in around the facts
+  M.words2.forEach((w,k)=>{const a=eo(clamp((t-6.9-k*0.045)/0.45));
+    w.style.opacity=a; w.style.transform=`translateY(${(1-a)*14}px)`; w.style.filter=`blur(${(1-a)*6}px)`;});
+  // stats
+  statEls.forEach((s,k)=>{const p=clamp((t-8.6-k*0.22)/0.4), n=T.st[k][0];
+    s.style.opacity=clamp(p*2); s.style.transform=`translateY(${(1-eo(p))*18}px) scale(${p>0?0.9+0.1*back(p):0.9})`;
+    s.firstChild.textContent=Math.round(n*eo(clamp((t-8.6-k*0.22)/0.8)));});
+  // particles from the burst tells
+  cx.clearRect(0,0,1200,675);
+  M.parts.forEach(p=>{const d=t-p.t0; if(d<0||d>1.1) return;
+    const x=p.x+p.vx*d, y=p.y+p.vy*d+260*d*d, a=1-d/1.1;
+    cx.fillStyle=`rgba(${p.c},${a})`; cx.fillRect(x,y,p.s*(1-d*0.5),p.s*(1-d*0.5));});
+  // fade out at the end so the loop restarts cleanly
+  fade.style.opacity=clamp((t-11.45)/0.55);
 };
-render(+new URLSearchParams(location.search).get("t")||13);
+document.fonts.ready.then(()=>render(+new URLSearchParams(location.search).get("t")||9.5));
 </script></body></html>

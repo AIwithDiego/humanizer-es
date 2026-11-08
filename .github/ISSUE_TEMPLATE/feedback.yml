@@ -1,0 +1,21 @@
+name: Idea or feedback
+description: Tell us what worked, what didn't, or what you'd like it to do. Español bienvenido.
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: note
+    attributes:
+      label: Your feedback
+      description: Issues are public and stay public. If you include a text, use one you own and swap real names, emails and numbers for made-up ones.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where you used it
+      options: ["Claude Code (skill)", "ChatGPT (prompt.md)", "Claude.ai (prompt.md)", "The checker", "Haven't tried it yet", "Other"]
+  - type: input
+    id: country
+    attributes:
+      label: Your Spanish
+      description: Country or variant (optional).
