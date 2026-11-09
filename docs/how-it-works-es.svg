@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>humanizer-es: cómo funciona</title>
+  <desc>Entra un texto en español. La skill marca las señales de IA, de la más fuerte a la más débil. Si no hay ninguna, lo escribió una persona: corrige erratas claras y para. Si las hay, escribe un borrador borrando marcas sin agregar datos, compara cada afirmación con el original y escribe la versión final. Una segunda opinión de otro modelo es opcional y solo con permiso. Sale la versión nueva con una nota de lo que cambió. Aparte, un revisor con patrones le pone puntaje sobre 5, sin internet.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7a90"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4ade80"/></marker>
+    <style>
+      .card { fill: #0b1120; stroke: #1a2338; stroke-width: 1.5; }
+      .step { font-size: 11.5px; font-weight: 700; letter-spacing: 1.2px; fill: #00e5ff; }
+      .h { font-size: 18px; font-weight: 700; fill: #f3f6fc; }
+      .t { font-size: 13.5px; fill: #b5bfd0; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; fill: #6b7a90; }
+      .line { stroke: #6b7a90; stroke-width: 2; fill: none; }
+    </style>
+  </defs>
+  <rect width="1200" height="590" rx="20" fill="#050810"/>
+  <text x="48" y="62" font-size="32" font-weight="800" fill="#f3f6fc">humanizer-es</text>
+  <text x="48" y="92" font-size="17" fill="#b5bfd0">Que tu español escrito con IA suene a ti, sin cambiar lo que dice.</text>
+  <rect class="card" x="48" y="130" width="200" height="200" rx="14"/>
+  <rect x="48" y="130" width="200" height="4" rx="2" fill="#00e5ff"/>
+  <text class="step" x="66" y="164">1 · ENTRADA</text>
+  <text class="h" x="66" y="192">Tu texto</text>
+  <text class="t" x="66" y="222">Un correo, un caption,</text>
+  <text class="t" x="66" y="242">un aviso, una respuesta</text>
+  <text class="mono" x="66" y="310">/humanizer-es</text>
+  <path class="line" d="M250 230.0 H270" marker-end="url(#a)"/>
+  <rect class="card" x="274" y="130" width="200" height="200" rx="14"/>
+  <rect x="274" y="130" width="200" height="4" rx="2" fill="#ff2dcd"/>
+  <text class="step" x="292" y="164">2 · QUIÉN LO ESCRIBIÓ</text>
+  <text class="h" x="292" y="192">Marca las señales</text>
+  <text class="t" x="292" y="222">De la más fuerte:</text>
+  <text class="t" x="292" y="242">teatro, calcos,</text>
+  <text class="t" x="292" y="262">ritmo, inflado</text>
+  <text class="mono" x="292" y="310">SKILL.md · A a F</text>
+  <path class="line" d="M476 230.0 H496" marker-end="url(#a)"/>
+  <rect class="card" x="500" y="130" width="200" height="200" rx="14"/>
+  <rect x="500" y="130" width="200" height="4" rx="2" fill="#ff2dcd"/>
+  <text class="step" x="518" y="164">3 · BORRADOR</text>
+  <text class="h" x="518" y="192">Borra, no agrega</text>
+  <text class="t" x="518" y="222">Borra la marca. ¿Hueco?</text>
+  <text class="t" x="518" y="242">Usa un dato que ya</text>
+  <text class="t" x="518" y="262">está en el texto.</text>
+  <text class="mono" x="518" y="310">paso 2</text>
+  <path class="line" d="M702 230.0 H722" marker-end="url(#a)"/>
+  <rect class="card" x="726" y="130" width="200" height="200" rx="14"/>
+  <rect x="726" y="130" width="200" height="4" rx="2" fill="#00e5ff"/>
+  <text class="step" x="744" y="164">4 · REVISIÓN</text>
+  <text class="h" x="744" y="192">Revisa cada dato</text>
+  <text class="t" x="744" y="222">Mismo alcance, misma</text>
+  <text class="t" x="744" y="242">fuerza, mismas</text>
+  <text class="t" x="744" y="262">promesas.</text>
+  <text class="mono" x="744" y="310">paso 3</text>
+  <path class="line" d="M928 230.0 H948" marker-end="url(#a)"/>
+  <rect class="card" x="952" y="130" width="200" height="200" rx="14"/>
+  <rect x="952" y="130" width="200" height="4" rx="2" fill="#4ade80"/>
+  <text class="step" x="970" y="164">5 · SALIDA</text>
+  <text class="h" x="970" y="192">Versión + nota</text>
+  <text class="t" x="970" y="222">La versión arriba,</text>
+  <text class="t" x="970" y="242">lo que cambió abajo.</text>
+  <text class="mono" x="970" y="310">copiar y enviar</text>
+  <path d="M374.0 332 V382 H1052.0 V336" fill="none" stroke="#4ade80" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#g)"/>
+  <rect x="414.0" y="366" width="598.0" height="32" rx="16" fill="#050810" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="713.0" y="387" text-anchor="middle" font-size="14" font-weight="600" fill="#4ade80">Sin señales: lo escribió una persona. Corrige erratas claras y para.</text>
+  <rect x="48" y="425" width="350" height="130" rx="14" fill="#0b1120" stroke="#1a2338" stroke-width="1.5"/>
+  <text class="step" x="68" y="455" style="fill:#00e5ff">REVISOR</text>
+  <text class="h" x="68" y="481">deslop-es</text>
+  <text class="t" x="68" y="507">Patrones, sin internet, gratis. Puntaje sobre 5.</text>
+  <text class="t" x="68" y="527">137 pruebas corren en CI.</text>
+  <text class="mono" x="378" y="455" text-anchor="end">tools/deslop_es.py</text>
+  <rect x="425" y="425" width="350" height="130" rx="14" fill="#0b1120" stroke="#5da9ff" stroke-dasharray="6 5" stroke-width="1.5"/>
+  <text class="step" x="445" y="455" style="fill:#5da9ff">OPCIONAL</text>
+  <text class="h" x="445" y="481">Segunda opinión</text>
+  <text class="t" x="445" y="507">Otro modelo relee la versión final.</text>
+  <text class="t" x="445" y="527">Pregunta antes de enviar nada.</text>
+  <text class="mono" x="755" y="455" text-anchor="end">paso 5</text>
+  <rect x="802" y="425" width="350" height="130" rx="14" fill="#0b1120" stroke="#1a2338" stroke-width="1.5"/>
+  <text class="step" x="822" y="455" style="fill:#00e5ff">PRUEBA</text>
+  <text class="h" x="822" y="481">A ciegas</text>
+  <text class="t" x="822" y="507">Primera de 6, con jueces Claude y GPT.</text>
+  <text class="t" x="822" y="527">0 datos inventados en 180 evaluaciones.</text>
+  <text class="mono" x="1132" y="455" text-anchor="end">evals/README.md</text>
+</svg>
