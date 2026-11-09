@@ -29,4 +29,4 @@ Seven human-written control texts (Reddit posts, job ads, a shop's "about us" pa
 
 ## Name and logo
 
-The AIwithDiego name and logo (in `docs/social-preview-*.png`) are not covered by the MIT licence.
+The AIwithDiego name and logo (in `docs/assets/social-preview-*.png`) are not covered by the MIT licence.
